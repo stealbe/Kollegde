@@ -42,5 +42,29 @@
         let a = prompt("Enter a side of cube:");
         alert('The Perimeter of the cube is ' + (4 * a));
     </script>
+
+    <script>
+        let curcleRadius = prompt("Enter the R of circle:");
+        alert('The S = ' + (Math.PI * curcleRadius * curcleRadius));
+    </script>
+
+    <script>
+        let distance = prompt("Enter the distance between two cities (km):");
+        let time = prompt("Enter the time to cover the distance (hours):");
+        alert('You need go at ' + (distance / time) + ' km/h to cover the distance in want time.');
+    </script>
+
+    <script>
+        let usd = prompt("Enter the amount in USD:");
+        const exchangeRate = 0.85;
+        let eur = usd * exchangeRate;
+        alert(`${usd} USD is approximately ${eur.toFixed(2)} EUR.`);
+    </script>
+
+    <script>
+        let bufer = prompt("Enter bufer of yurs flesh in GB:");
+        const file = 820;
+        alert('You can paste ' + Math.floor(bufer * 1024 / file) + ' files of 820 MB size.');
+    </script>
 </body>
 </html>
