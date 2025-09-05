@@ -1,9 +1,9 @@
 # commit-push-all.ps1
 $commitMessage = "Автообновление: $(Get-Date -Format 'dd.MM.yyyy HH:mm')"
 
-# Получаем все worktree, только путь
+# Получаем список worktree
 $worktrees = git worktree list | ForEach-Object {
-    # Берём всё до первого пробела, которое заканчивается на букву/слэш
+    # берём всё до первой пары пробелов перед '['
     ($_ -split '\s+\[', 2)[0].Trim()
 }
 
