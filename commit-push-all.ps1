@@ -1,8 +1,11 @@
 # commit-push-all.ps1
 $commitMessage = "Автообновление: $(Get-Date -Format 'dd.MM.yyyy HH:mm')"
 
-# Получаем все worktree (главная + дополнительные)
-$worktrees = git worktree list | ForEach-Object { ($_ -split '\s+')[0] }
+# Получаем все worktree, только путь
+$worktrees = git worktree list | ForEach-Object {
+    # Берём всё до первого пробела, которое заканчивается на букву/слэш
+    ($_ -split '\s+\[', 2)[0].Trim()
+}
 
 foreach ($wt in $worktrees) {
     Write-Host ">>> Работаю с $wt ..."
