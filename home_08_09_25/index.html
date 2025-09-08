@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        userage = prompt("Enter your age:");
+        alert(`${userage >= 60 ? "you are old" : userage >= 18 ? "you are young" : userage >= 12 ? "you are teen" : userage >= 2 ? "you are child" : "you are baby"}`);
+    </script> -->
+
+    <!-- <script>
+        usernum = prompt("Enter your number (0-9):");
+        Proxy = {
+            1: "!",
+            2: "@",
+            3: "#",
+            4: "$",
+            5: "%",
+            6: "^",
+            7: "&",
+            8: "*",
+            9: "(",
+            0: ")"
+        };
+        alert(Proxy[usernum] || "Error enter number 0-9");
+    </script> -->
+
+    <!-- <script>
+        usernum = prompt("Enter *** num:");
+        usernum[0] == usernum[1] || usernum[0] == usernum[2] || usernum[1] == usernum[2] ? alert("Yes") : alert("No");
+    </script> -->
+
+    <!-- <script>
+        useryear = prompt("Enter year:");
+        (useryear % 4 == 0 && useryear % 100 != 0) || (useryear % 400 == 0) ? alert("Yes") : alert("No");
+    </script> -->
+
+    <!-- <script>
+        userpalidrom = prompt("Enter palidrom:");
+        userpalidrom == userpalidrom.split("").reverse().join("") ? alert("Yes") : alert("No");
+    </script> -->
+
+    <!-- <script>
+        uservalue = prompt("Enter value in USD:");
+        uservalute = prompt("Enter valute (USD/EUR/AZN):");
+        Proxy = {
+            "UAH": 41.2,
+            "EUR": 0.78,
+            "AZN": 1.73
+        };
+        alert(`${uservalue * Proxy[uservalute] || "Error enter valute USD/EUR/AZN"}`);
+    </script> -->
+
+    <!-- <script>
+        usercheck = prompt("Enter check:");
+        discount = usercheck < 200 ? 0 : usercheck < 300 ? 3 : usercheck < 500 ? 5 : 7;
+        alert(`Your discount: ${discount}%, total: ${usercheck - (usercheck * discount) / 100}`);
+    </script> -->
+
+    <!-- <script>
+        usercircle = prompt("Enter circle leght:");
+        usersquare = prompt("Enter square P:");
+        alert(`${usercircle / Math.PI <= usersquare / 4 ? "Yes it have space in" : "No"}`);
+    </script> -->
+
+    <!-- <script>
+        let score = 0;
+        const questions = [
+            {
+                question: "What is the capital of France?",
+                options: ["A) Berlin", "B) Madrid", "C) Paris", "D) Rome"],
+                answer: "C"
+            },
+            {
+                question: "What is 2 + 2?",
+                options: ["A) 3", "B) 4", "C) 5", "D) 6"],
+                answer: "B"
+            },
+            {
+                question: "What is the largest planet in our solar system?",
+                options: ["A) Earth", "B) Jupiter", "C) Mars", "D) Saturn"],
+                answer: "B"
+            }
+        ];
+        questions.forEach((q, index) => {
+            let userAnswer = prompt(`${index + 1}. ${q.question}\n${q.options.join("\n")}`);
+            if (userAnswer.toUpperCase() === q.answer) {
+                score++;
+            }
+        });
+        alert(`Your score: ${score} out of ${questions.length}`);
+    </script> -->
+
+    <script>
+        let dateInput = prompt("Enter date (YYYY-MM-DD):");
+        let dateParts = dateInput.split("-");
+        let date = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+        // обьект Date в сеюе хранит год мес день, часы минуты секунды и тд, при setDate если день больше чем в месяце он просто прибавит к месяцу (с годом так же)
+        // !! мин знач 01.01.1970 года
+        date.setDate(date.getDate() + 1);
+        let nextYear = date.getFullYear();
+        let nextMonth = String(date.getMonth() + 1).padStart(2, '0');
+        let nextDay = String(date.getDate()).padStart(2, '0');
+        // padStart - если строка меньше n символов добавляет спереди * при padStart(n, *)
+        alert(`Next day is: ${nextYear}-${nextMonth}-${nextDay}`);
+    </script>
+</body>
+
+</html>
