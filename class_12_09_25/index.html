@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // count = prompt("Enter a number of #:");
+        // while (count-- > 0) {
+        //     document.write("#");
+        // }
+        // num = prompt("Enter a number to 0:");
+        // while (num >= 0) {
+        //     document.write(num + ", ");
+        //     num--;
+        // }
+        // num = prompt("Enter a number^degree:");
+        // nums = num.split("^");
+        // res = Number(nums[0]);
+        // degree = Number(nums[1]);
+        // while (degree-- > 1) {
+        //     res *= nums[0];
+        // }
+        // alert(res);
+        // let nums = prompt("Enter 2 numbers (x, y):");
+        // let nums_arr = nums.split(",").map(Number);
+
+        // let del = (nums_arr[0] > nums_arr[1]) ? nums_arr[1] : nums_arr[0];
+
+        // document.write("Common divisors: ");
+
+        // while (del > 0) {
+        //     if (nums_arr[0] % del === 0 && nums_arr[1] % del === 0) {
+        //         document.write(del + " ");
+        //     }
+        //     del--;
+        // }
+        // num = Number(prompt("Enter a number to fact:"));
+        // fact = 1;
+        // while (num > 1) {
+        //     fact *= num--;
+        // }
+        // alert(fact);
+    </script>
+
+    <script>
+        do {
+            usernum = Number(prompt("2 + 2 * 2 = ?"));
+        } while (usernum != 6);
+        alert("Correct!");
+        sumdenom = 0;
+        num = 1000;
+        do {
+            num /= 2;
+            sumdenom++;
+        } while (num > 50);
+        alert(num + " divided " + sumdenom + " times");
+    </script>
+
+    <script>
+        num = prompt("Enter a number from 1 to 100:");
+        for (i = 1; i <= 100; i++) {
+            if (num & i == 0) {
+                document.write(i + ", ");
+            }
+        }
+        diap = prompt("Enter a diapason min-max:");
+        diap.split("-");
+        for (i = diap[0]; i <= diap[1]; i += 4) {
+            document.write(i + ", ");
+        }
+        is_siple = true;
+        usernum = prompt("Enter num:");
+        for (i = 2; i < num; i++) {
+            if (usernum % i == 0) is_siple = false;
+        }
+        is_siple ? alert("Simple") : alert("Not simple");
+    </script>
+</body>
+
+</html>
