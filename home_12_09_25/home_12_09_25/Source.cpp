@@ -26,8 +26,9 @@ void Fill_arr(int* _arr, int size)
 	srand(unsigned(time(0)));
 	for (size_t i = 0; i < size; i++)
 	{
-		_arr[i] = (rand() % 100) / 10;
+		_arr[i] = ((rand() % 199) - 99);
 	}
+
 }
 
 int Sum_arr(int* _arr, int size, int num)
