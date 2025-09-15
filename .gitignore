@@ -1,3 +1,5 @@
 .vs/
+.trunk/
 commit-push-all.ps1
 graphics/
+english/
