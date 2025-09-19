@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // scenary = [
+        //     {question: "2 + 2 = 4?", answer: true},
+        //     {question: "5 - 3 = 1?", answer: false},
+        //     {question: "3 * 3 = 9?", answer: true},
+        //     {question: "10 / 2 = 6?", answer: false},
+        //     {question: "London is a capital of Britan?", answer: true}
+        // ]
+        // let score = 0;
+        // scenary.map(item, index => {
+        //     let userAnswer = confirm(item.question);
+        //     if(userAnswer === item.answer) {
+        //         score++;
+        //         alert("Correct answer!");
+        //     } else {
+        //         alert("Wrong answer!");
+        //     }
+        // })
+        // alert(`Your score is ${score} / ${scenary.length}`);
+
+        // correctInput = [
+        //     'Q','W','E','R','T','Y','U','I','O','P',
+        //     'A','S','D','F','G','H','J','K','L',
+        //     'Z','X','C','V','B','N','M', ' ', '.'
+        // ]
+        // userProfile = prompt("Enter your surname, name and father's name");
+        // for(let i = 0; i < userProfile.length; i++) {
+        //     if(!correctInput.includes(userProfile[i].toUpperCase())) {
+        //         alert("Wrong input data");
+        //         break;
+        //     }
+        // }
+        // alert(`Your profile is ${userProfile}`);
+
+        http = prompt("Enter your http link");
+
+        protocol = http.split("//")[0];
+        // http:
+        parts = http.split("/");
+        host = parts[2];
+        filePath = "/" + parts.slice(3, parts.length - 1 ).join("/") + "/";
+        file_call = parts[parts.length - 1];
+
+        // file
+        file = file_call.split("?")[0];
+        call = file_call.split("?")[1];
+
+        document.write(`Protocol: ${protocol} <br>` +
+            `Host: ${host} <br>` +
+            `File path: ${filePath} <br>` +
+            `File: ${file} <br>` +
+            `Call: ${call} <br>`);
+        // http://www.ufa.com.ua/utilites/hdd/out.php?sort=2
+    </script>
+</body>
+
+</html>
