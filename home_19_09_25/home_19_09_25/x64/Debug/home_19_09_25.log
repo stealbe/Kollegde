@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\Kolledge\2 course\algoritm\home_19_09_25\home_19_09_25\Source.cpp(64,19): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  home_19_09_25.vcxproj -> E:\Kolledge\2 course\algoritm\home_19_09_25\x64\Debug\home_19_09_25.exe
