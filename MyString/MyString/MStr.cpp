@@ -6,12 +6,14 @@ MStr::MStr()
 {
 	length = 80;
 	str = new char[length];
+	count++;
 }
 
 MStr::MStr(int size)
 {
 	length = size;
 	str = new char[length];
+	count++;
 }
 
 MStr::MStr(const char* _str)
@@ -19,6 +21,7 @@ MStr::MStr(const char* _str)
 	length = strlen(_str);
 	str = new char[length + 1];
 	strcpy_s(str, length + 1, _str);
+	count++;
 }
 
 MStr::MStr(const MStr& _str)
@@ -26,6 +29,7 @@ MStr::MStr(const MStr& _str)
 	length = _str.length;
 	str = new char[length + 1];
 	strcpy_s(str, length + 1, _str.str);
+	count++;
 }
 
 MStr::MStr(MStr&& _str)
@@ -34,10 +38,12 @@ MStr::MStr(MStr&& _str)
 	_str.str = nullptr;
 	length = _str.length;
 	_str.length = 0;
+	count++;
 }
 
 MStr::~MStr()
 {
+	count--;
 	delete[] str;
 }
 
@@ -112,3 +118,10 @@ int MStr::StrCmp(MStr& b)
 {
 	return (length != b.length ? (length > b.length ? 1 : -1) : 0);
 }
+
+int MStr::Count()
+{
+	return count;
+}
+
+int MStr::count = 0;

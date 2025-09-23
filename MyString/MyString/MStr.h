@@ -3,6 +3,7 @@ class MStr {
 private:
     char* str;
     int length;
+    static int count;
 public:
     MStr();
     MStr(int size);
@@ -20,4 +21,6 @@ public:
     void Cat(MStr& b);
     void DelChr(char chr);
     int StrCmp(MStr& b);
+
+    static int Count();
 };
