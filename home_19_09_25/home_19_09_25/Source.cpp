@@ -77,9 +77,9 @@ int main() {
 	int* right = nullptr;
 	UnCat(arr, size, left, right);
 
-	cout << "Первая половина: ";
+	cout << "Первая часть: ";
 	for (int i = 0; i < size / 2; i++) cout << left[i] << " ";
-	cout << "\nВторая половина: ";
+	cout << "\nВторая часть: ";
 	for (int i = 0; i < size / 2; i++) cout << right[i] << " ";
 	cout << "\n\n";
 
