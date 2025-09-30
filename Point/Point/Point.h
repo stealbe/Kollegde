@@ -13,5 +13,11 @@ public:// интерфейс класса, прототипы методов
 	void Init();  // ввод с клавиатуры
 	void Print();
 	static int Count();
+	Point operator+ (Point& obj);
+	Point operator+ (int n);
+	Point operator- (Point& obj);
+	Point operator- (int n);
+	Point operator% (Point& obj);
+	Point operator% (int n);
 };
 

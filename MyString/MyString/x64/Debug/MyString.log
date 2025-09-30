@@ -1,6 +1,2 @@
 ﻿  MStr.cpp
-E:\Kolledge\2 course\ooprog\MyString\MyString\MStr.cpp(19,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-E:\Kolledge\2 course\ooprog\MyString\MyString\MStr.cpp(58,15): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-E:\Kolledge\2 course\ooprog\MyString\MyString\MStr.cpp(64,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-E:\Kolledge\2 course\ooprog\MyString\MyString\MStr.cpp(71,9): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   MyString.vcxproj -> E:\Kolledge\2 course\ooprog\MyString\x64\Debug\MyString.exe

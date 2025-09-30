@@ -38,4 +38,35 @@ int Point::Count()
 	return count;
 }
 
+Point Point::operator+(Point& obj)
+{
+	Point p(x + obj.x, y + obj.y);
+	return p;
+}
+
+Point Point::operator+(int n)
+{
+	return Point (x + n, y + n);
+}
+
+Point Point::operator-(Point& obj)
+{
+	return Point (x - obj.x, y - obj.y);
+}
+
+Point Point::operator-(int n)
+{
+	return Point(x - n, y - n);
+}
+
+Point Point::operator%(Point& obj)
+{
+	return Point(x % obj.x, y & obj.y);
+}
+
+Point Point::operator%(int n)
+{
+	return Point(x & n, y & n);
+}
+
 int Point::count = 0; // начальная инициализация статик поля

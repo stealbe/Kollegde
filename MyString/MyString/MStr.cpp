@@ -9,7 +9,7 @@ MStr::MStr()
 	count++;
 }
 
-MStr::MStr(int size)
+MStr::MStr(size_t size)
 {
 	length = size;
 	str = new char[length];
@@ -32,7 +32,7 @@ MStr::MStr(const MStr& _str)
 	count++;
 }
 
-MStr::MStr(MStr&& _str)
+MStr::MStr(MStr&& _str) noexcept
 {
 	str = _str.str;
 	_str.str = nullptr;
@@ -67,7 +67,7 @@ void MStr::Print()
 	cout << str << endl;
 }
 
-int MStr::Len()
+size_t MStr::Len()
 {
 	return strlen(str);
 }
@@ -82,7 +82,7 @@ void MStr::Inp(const char* st)
 
 int MStr::StrChr(char chr)
 {
-	for (size_t i = 0; i < length + 1; i++)
+	for (int i = 0; i < length + 1; i++)
 	{
 		if (str[i] == chr) return i;
 	}
@@ -122,6 +122,45 @@ int MStr::StrCmp(MStr& b)
 int MStr::Count()
 {
 	return count;
+}
+
+MStr MStr::operator+(MStr& str)
+{
+	MStr obj(this->str);
+	obj.Cat(str);
+	return obj;
+}
+
+MStr MStr::operator+(const char* str)
+{
+	MStr obj(this->str);
+	MStr temp(str);
+	obj.Cat(temp);
+	return obj;
+}
+
+MStr MStr::operator+(const char chr)
+{
+	char* tempStr = new char[length + 2];
+	strcpy_s(tempStr, length + 2, str);
+	tempStr[length] = chr;
+	tempStr[length + 1] = '\0';
+	MStr obj(tempStr);
+	return obj;
+}
+
+
+// Либо удалять если найдены к ряду все совпадения посимвольно
+MStr MStr::operator-(const char* str)
+{
+	size_t temp_len = strlen(str);
+	if (temp_len > length) temp_len = length;
+
+	char* tempStr = new char[length - temp_len + 1];
+	strncpy_s(tempStr, length - temp_len + 1, this->str, length - temp_len);
+	tempStr[length - temp_len] = '\0';
+	MStr obj(tempStr);
+	return obj;
 }
 
 int MStr::count = 0;
