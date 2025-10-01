@@ -24,8 +24,28 @@ public:
 
     static int Count();
 
-    MStr operator+ (MStr& str);
+    MStr operator+ (MStr& obj);
     MStr operator+ (const char* str);
     MStr operator+ (const char chr);
     MStr operator- (const char* str);
+    bool operator== (MStr& obj);
+    bool operator!= (MStr& obj);
+    bool operator> (MStr& obj);
+    bool operator< (MStr& obj);
+    bool operator>= (MStr& obj);
+    bool operator<= (MStr& obj);
+
+    bool operator== (const char* str);
+    bool operator!= (const char* str);
+    bool operator> (const char* str);
+    bool operator< (const char* str);
+    bool operator>= (const char* str);
+    bool operator<= (const char* str);
+
+    bool operator== (const int len);
+    bool operator!= (const int len);
+    bool operator> (const int len);
+    bool operator< (const int len);
+    bool operator>= (const int len);
+    bool operator<= (const int len);
 };

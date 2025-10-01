@@ -124,10 +124,10 @@ int MStr::Count()
 	return count;
 }
 
-MStr MStr::operator+(MStr& str)
+MStr MStr::operator+(MStr& obj)
 {
 	MStr obj(this->str);
-	obj.Cat(str);
+	obj.Cat(obj);
 	return obj;
 }
 
@@ -154,13 +154,118 @@ MStr MStr::operator+(const char chr)
 MStr MStr::operator-(const char* str)
 {
 	size_t temp_len = strlen(str);
-	if (temp_len > length) temp_len = length;
+	char* chr_f = strstr(this->str, str);
+	if (chr_f == nullptr) return MStr(this->str);
+	size_t pos = chr_f - this->str;
+	size_t new_len = length - temp_len;
+	char* tempStr = new char[new_len + 1];
+	
+	strncpy_s(tempStr, new_len + 1, this->str, pos);
+	strcpy_s(tempStr + pos, new_len - pos + 1, this->str + pos + temp_len);
 
-	char* tempStr = new char[length - temp_len + 1];
-	strncpy_s(tempStr, length - temp_len + 1, this->str, length - temp_len);
-	tempStr[length - temp_len] = '\0';
-	MStr obj(tempStr);
-	return obj;
+	return MStr(tempStr);
 }
+
+bool MStr::operator==(MStr& obj)
+{
+	return strcmp(this->str, obj.str) == 0;
+}
+
+bool MStr::operator!=(MStr& obj)
+{
+	return !(*this == obj);
+}
+
+bool MStr::operator>(MStr& obj)
+{
+	return strcmp(this->str, obj.str) == 1;
+}
+
+bool MStr::operator<(MStr& obj)
+{
+	return strcmp(this->str, obj.str) == -1;
+}
+
+bool MStr::operator>=(MStr& obj)
+{
+	return !(*this < obj);
+}
+
+bool MStr::operator<=(MStr& obj)
+{
+	return !(*this > obj);
+}
+
+bool MStr::operator==(const char* str)
+{
+	return strcmp(this->str, str) == 0;
+}
+
+bool MStr::operator!=(const char* str)
+{
+	return !(*this == str);
+}
+
+bool MStr::operator>(const char* str)
+{
+	return strcmp(this->str, str) == 1;
+}
+
+bool MStr::operator<(const char* str)
+{
+	return strcmp(this->str, str) == -1;
+}
+
+bool MStr::operator>=(const char* str)
+{
+	return !(*this < str);
+}
+
+bool MStr::operator<=(const char* str)
+{
+	return !(*this > str);
+}
+
+bool MStr::operator==(const int len)
+{
+	return (this->length == len);
+}
+
+bool MStr::operator!=(const int len)
+{
+	return !(*this == len);
+}
+
+bool MStr::operator>(const int len)
+{
+	return (this->length > len);
+}
+
+bool MStr::operator<(const int len)
+{
+	return (this->length < len);
+}
+
+bool MStr::operator>=(const int len)
+{
+	return !(*this < len);
+}
+
+bool MStr::operator<=(const int len)
+{
+	return !(*this > len);
+}
+
+//MStr MStr::operator-(const char* str)
+//{
+//	size_t temp_len = strlen(str);
+//	if (temp_len > length) temp_len = length;
+//
+//	char* tempStr = new char[length - temp_len + 1];
+//	strncpy_s(tempStr, length - temp_len + 1, this->str, length - temp_len);
+//	tempStr[length - temp_len] = '\0';
+//	MStr obj(tempStr);
+//	return obj;
+//}
 
 int MStr::count = 0;
