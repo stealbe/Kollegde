@@ -1,4 +1,5 @@
 .vs/
+.vscode/
 .trunk/
 commit-push-all.ps1
 graphics/
