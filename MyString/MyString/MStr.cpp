@@ -126,9 +126,9 @@ int MStr::Count()
 
 MStr MStr::operator+(MStr& obj)
 {
-	MStr obj(this->str);
-	obj.Cat(obj);
-	return obj;
+	MStr temp(this->str);
+	temp.Cat(obj);
+	return temp;
 }
 
 MStr MStr::operator+(const char* str)
@@ -254,6 +254,60 @@ bool MStr::operator>=(const int len)
 bool MStr::operator<=(const int len)
 {
 	return !(*this > len);
+}
+
+MStr& MStr::operator++()
+{
+	char* new_str = new char[length + 2];
+	new_str[0] = ' ';
+	for (size_t i = 1; i < length + 1; i++)
+	{
+		new_str[i] = str[i - 1];
+	}
+	new_str[length++ + 1] = '\0';
+	delete[] str;
+	str = new_str;
+	return *this;
+}
+
+MStr MStr::operator++(int)
+{
+	MStr temp = *this;
+	char* new_str = new char[length + 2];
+	for (size_t i = 0; i < length; i++)
+	{
+		new_str[i] = str[i];
+	}
+	new_str[length] = ' ';
+	new_str[length++ + 1] = '\0';
+	delete[] str;
+	str = new_str;
+	return temp;
+}
+
+MStr& MStr::operator--()
+{
+	char* new_str = new char[length];
+	for (size_t i = 1; i < length; i++)
+	{
+		new_str[i - 1] = str[i];
+	}
+	new_str[--length] = '\0';
+	delete[] str;
+	str = new_str;
+	return *this;
+}
+
+MStr MStr::operator--(int)
+{
+	MStr temp = *this;
+	str = new char[length];
+	for (size_t i = 0; i < length - 1; i++)
+	{
+		str[i] = temp.str[i];
+	}
+	str[--length] = '\0';
+	return temp;
 }
 
 //MStr MStr::operator-(const char* str)

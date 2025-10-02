@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\Point\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|solutionrelative:Point\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|solutionrelative:Point\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|solutionrelative:Point\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC64B0D-3650-4971-AD29-A810BCF4A23A}|Point\\Point.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Point.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.h",
               "RelativeDocumentMoniker": "Point\\Point.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.h",
               "RelativeToolTip": "Point\\Point.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAADAzMzMzMwXwB0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-23T07:54:13.747Z",
               "EditorCaption": ""
@@ -45,9 +45,10 @@
               "RelativeDocumentMoniker": "Point\\main.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\main.cpp",
               "RelativeToolTip": "Point\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-23T07:54:07.905Z"
+              "WhenOpened": "2025-09-23T07:54:07.905Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -57,13 +58,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Point.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.cpp",
               "RelativeDocumentMoniker": "Point\\Point.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Point\\Point\\Point.cpp",
               "RelativeToolTip": "Point\\Point.cpp",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAACAmpmZmZkOwHEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-23T07:54:05.503Z",
               "EditorCaption": ""

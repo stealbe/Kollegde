@@ -71,38 +71,62 @@ Point Point::operator%(int n)
 
 bool Point::operator==(Point& obj)
 {
-	if (x == obj.x && y == obj.y)
-	{
-		return true;
-	}
-	return false;
+	return (x == obj.x && y == obj.y);
 }
 
 bool Point::operator!=(Point& obj)
 {
-	return (*this == obj ? false : true);
+	return !(*this == obj);
 }
 
 bool Point::operator>(Point& obj)
 {
-	return (x+y > obj.x + obj.y ? true : false);
+	return (x+y > obj.x + obj.y);
 }
 
 bool Point::operator<(Point& obj)
 {
-	return (*this > obj ? false : true);
+	return (x + y < obj.x + obj.y);
 }
 
 bool Point::operator>=(Point& obj)
 {
-	return (x + y >= obj.x + obj.y ? true : false);
+	return !(*this < obj);
 }
 
 bool Point::operator<=(Point& obj)
 {
-	return (*this >= obj ? false : true);
+	return !(*this > obj);
 }
 
+Point& Point::operator++()
+{
+	++x;
+	++y;
+	return *this;
+}
 
+Point Point::operator++(int)
+{
+	Point temp = *this;
+	x++;
+	y++;
+	return temp;
+}
+
+Point& Point::operator--()
+{
+	--x;
+	--y;
+	return *this;
+}
+
+Point Point::operator--(int)
+{
+	Point temp = *this;
+	x++;
+	y++;
+	return temp;
+}
 
 int Point::count = 0; // начальная инициализация статик поля

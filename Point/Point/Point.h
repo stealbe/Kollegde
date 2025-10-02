@@ -25,5 +25,8 @@ public:// интерфейс класса, прототипы методов
 	bool operator< (Point& obj);
 	bool operator>= (Point& obj);
 	bool operator<= (Point& obj);
+	Point& operator++ ();
+	Point operator++ (int);
+	Point& operator-- ();
+	Point operator-- (int);
 };
-

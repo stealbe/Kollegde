@@ -48,4 +48,8 @@ public:
     bool operator< (const int len);
     bool operator>= (const int len);
     bool operator<= (const int len);
+    MStr& operator++ ();
+    MStr operator++ (int);
+    MStr& operator-- ();
+    MStr operator-- (int);
 };

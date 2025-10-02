@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\MyString\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|solutionrelative:MyString\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|solutionrelative:MyString\\MStr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|solutionrelative:MyString\\MStr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|solutionrelative:MyString\\MyString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{919022B2-A95C-4F93-9BC1-5ED5CE0CBA17}|MyString\\MyString.vcxproj|E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\tt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -26,30 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 374,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MStr.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.cpp",
               "RelativeDocumentMoniker": "MyString\\MStr.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.cpp",
               "RelativeToolTip": "MyString\\MStr.cpp",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAAALkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB0BAAAAkJmZmRkmwDIBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-17T08:15:49.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MyString.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MyString.cpp",
               "RelativeDocumentMoniker": "MyString\\MyString.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MyString.cpp",
               "RelativeToolTip": "MyString\\MyString.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAACgMzMzM3MvwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-17T08:12:57.067Z",
               "EditorCaption": ""
@@ -62,13 +62,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MStr.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.h",
               "RelativeDocumentMoniker": "MyString\\MStr.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\MyString\\MyString\\MStr.h",
               "RelativeToolTip": "MyString\\MStr.h",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAaWZmZmb0vzQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-17T08:15:20.851Z",
               "EditorCaption": ""
