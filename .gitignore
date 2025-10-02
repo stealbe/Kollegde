@@ -4,3 +4,21 @@
 commit-push-all.ps1
 graphics/
 english/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+*.vsidx
+*.vspscc
+
+# Rider
+.idea/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
