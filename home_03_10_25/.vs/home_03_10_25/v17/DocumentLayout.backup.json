@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\algoritm\\home_03_10_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{410760C7-0168-455E-BF80-7ADB7EE72BFB}|home_03_10_25\\home_03_10_25.vcxproj|E:\\Kolledge\\2 course\\algoritm\\home_03_10_25\\home_03_10_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{410760C7-0168-455E-BF80-7ADB7EE72BFB}|home_03_10_25\\home_03_10_25.vcxproj|solutionrelative:home_03_10_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\algoritm\\home_03_10_25\\home_03_10_25\\FileName.cpp",
+              "RelativeDocumentMoniker": "home_03_10_25\\FileName.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\algoritm\\home_03_10_25\\home_03_10_25\\FileName.cpp",
+              "RelativeToolTip": "home_03_10_25\\FileName.cpp",
+              "ViewState": "AgIAAD8AAAAAUDMzMzPrvx0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-03T10:23:22.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
