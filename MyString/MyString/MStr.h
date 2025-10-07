@@ -52,4 +52,6 @@ public:
     MStr operator++ (int);
     MStr& operator-- ();
     MStr operator-- (int);
+    MStr& operator= (MStr& obj);
+    MStr& operator= (const char* _str);
 };

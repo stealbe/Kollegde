@@ -310,6 +310,26 @@ MStr MStr::operator--(int)
 	return temp;
 }
 
+MStr& MStr::operator=(MStr& _str)
+{
+	if (this == &_str) return *this;
+	if (str != nullptr) delete[] str;
+	length = _str.length;
+	str = new char[length + 1];
+	strcpy_s(str, length + 1, _str.str);
+	return *this;
+}
+
+MStr& MStr::operator=(const char* _str)
+{
+	if (&str == &_str) return *this;
+	if (str != nullptr) delete[] str;
+	length = strlen(_str);
+	str = new char[length + 1];
+	strcpy_s(str, length + 1, _str);
+	return *this;
+}
+
 //MStr MStr::operator-(const char* str)
 //{
 //	size_t temp_len = strlen(str);
