@@ -330,6 +330,12 @@ MStr& MStr::operator=(const char* _str)
 	return *this;
 }
 
+char MStr::operator[](int i)
+{
+	if (i >= 0 && i < length) return str[i];
+	return ' ';
+}
+
 //MStr MStr::operator-(const char* str)
 //{
 //	size_t temp_len = strlen(str);

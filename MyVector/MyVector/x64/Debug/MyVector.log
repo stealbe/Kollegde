@@ -1,0 +1,5 @@
+﻿  MVector.cpp
+  MyVector.cpp
+E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+LINK : fatal error LNK1168: не удается открыть E:\Kolledge\2 course\ooprog\MyVector\x64\Debug\MyVector.exe для записи
