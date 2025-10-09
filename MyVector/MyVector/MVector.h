@@ -18,4 +18,18 @@ public:
     MVector& operator= (const MVector& obj);
     MVector operator++ (int);
     MVector operator-- (int);
+
+    operator int();
+    void operator() ();
+    void operator() (int* arr, int size);
+
+    MVector& operator= (MVector&& obj)noexcept; // с переносом
+    MVector& operator+= (int n);
+    MVector& operator+= (MVector& obj);
+    MVector& operator-= (int n);
+    MVector& operator-= (MVector& obj);
+    MVector& operator*= (int n);
+    MVector& operator*= (MVector& obj);
+    MVector& operator/= (int n);
+    MVector& operator/= (MVector& obj);
 };

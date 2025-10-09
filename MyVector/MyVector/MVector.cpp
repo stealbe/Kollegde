@@ -85,6 +85,11 @@ MVector MVector::operator--(int)
 	return temp;
 }
 
+MVector::operator int()
+{
+	return size;
+}
+
 MVector MVector::operator++(int)
 {
 	MVector temp = *this;
@@ -98,4 +103,160 @@ MVector MVector::operator++(int)
 	delete[] arr;
 	arr = tempArr;
 	return temp;
+}
+
+void MVector::operator() ()
+{
+	Print();
+}
+
+void MVector::operator() (int* arr, int size)
+{
+	this->size = size;
+	if (this->arr != nullptr) delete[] this->arr;
+	this->arr = new int[size + 1];
+	for (size_t i = 0; i < this->size + 1; i++)
+	{
+		this->arr[i] = arr[i];
+	}
+}
+
+MVector& MVector::operator=(MVector&& obj)noexcept
+{
+	size = obj.size;
+	if (arr != nullptr) delete[] arr;
+	arr = new int[size + 1];
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		arr[i] = obj.arr[i];
+	}
+	delete[] obj.arr;
+	obj.size = 0;
+	return *this;
+}
+
+MVector& MVector::operator+=(int n)
+{
+	int* tempArr = new int[size + n + 1];
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		tempArr[i] = arr[i];
+	}
+	for (size_t i = size + 1; i < size + n + 1; i++)
+	{
+		tempArr[i] = 0;
+	}
+	tempArr[size += n] = '\0';
+	return *this;
+}
+
+MVector& MVector::operator+=(MVector& obj)
+{
+	int* tempArr = new int[size + obj.size + 1];
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		tempArr[i] = arr[i];
+	}
+	for (size_t i = size + 1; i < size + obj.size + 1; i++)
+	{
+		tempArr[i] = obj.arr[i - size];
+	}
+	tempArr[size += obj.size] = '\0';
+	return *this;
+}
+
+MVector& MVector::operator-=(int n)
+{
+	int* tempArr = new int[size - n + 1];
+	for (size_t i = 0; i < size - n + 1; i++)
+	{
+		tempArr[i] = arr[i];
+	}
+	tempArr[size -= n + 1] = '\0';
+	return *this;
+}
+
+MVector& MVector::operator-=(MVector& obj)
+{
+	int* tempArr = new int[size - obj.size + 1];
+	for (size_t i = 0; i < size - obj.size + 1; i++)
+	{
+		tempArr[i] = arr[i];
+	}
+	tempArr[size -= obj.size + 1] = '\0';
+	return *this;
+}
+
+MVector& MVector::operator*=(int n)
+{
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		arr[i] *= n;
+	}
+	return *this;
+}
+
+MVector& MVector::operator*=(MVector& obj)
+{
+	if (size >= obj.size)
+	{
+		for (size_t i = 0; i < obj.size + 1; i++)
+		{
+			arr[i] *= obj.arr[i];
+		}
+	}
+	else
+	{
+		int* tempArr = new int[obj.size + 1];
+		for (size_t i = 0; i < size + 1; i++)
+		{
+			tempArr[i] = arr[i] * obj.arr[i];
+		}
+		for (size_t i = size + 1; i < obj.size + 1; i++)
+		{
+			tempArr[i] = obj.arr[i];
+		}
+		delete[] arr;
+		size = obj.size;
+		tempArr[size] = '\0';
+		arr = tempArr;
+	}
+	return *this;
+}
+
+MVector& MVector::operator/=(int n)
+{
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		arr[i] /= n;
+	}
+	return *this;
+}
+
+MVector& MVector::operator/=(MVector& obj)
+{
+	if (size >= obj.size)
+	{
+		for (size_t i = 0; i < obj.size + 1; i++)
+		{
+			arr[i] *= obj.arr[i];
+		}
+	}
+	else
+	{
+		int* tempArr = new int[obj.size + 1];
+		for (size_t i = 0; i < size + 1; i++)
+		{
+			tempArr[i] = arr[i] / obj.arr[i];
+		}
+		for (size_t i = size + 1; i < obj.size + 1; i++)
+		{
+			tempArr[i] = 0;
+		}
+		delete[] arr;
+		size = obj.size;
+		tempArr[size] = '\0';
+		arr = tempArr;
+	}
+	return *this;
 }
