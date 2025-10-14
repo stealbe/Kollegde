@@ -39,6 +39,13 @@ void MVector::Init()
 	}
 }
 
+void MVector::Init(int* nArr, const int nSize)
+{
+	if (arr != nullptr) delete[] arr;
+	arr = nArr;
+	size = nSize;
+}
+
 void MVector::Print()
 {
 	for (size_t i = 0; i < size; i++)
@@ -50,6 +57,16 @@ void MVector::Print()
 int MVector::GetSize() const
 {
 	return size;
+}
+
+void MVector::SetIndex(int i, int n)
+{
+	arr[i] = n;
+}
+
+int MVector::GetIndex(int i)
+{
+	return arr[i];
 }
 
 int MVector::operator[](int i)

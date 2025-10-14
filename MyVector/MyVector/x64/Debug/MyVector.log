@@ -1,5 +1,6 @@
-﻿  MVector.cpp
-  MyVector.cpp
-E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Создание кода...
-LINK : fatal error LNK1168: не удается открыть E:\Kolledge\2 course\ooprog\MyVector\x64\Debug\MyVector.exe для записи
+﻿  MyVector.cpp
+E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(12,38): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(12,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(23,36): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Kolledge\2 course\ooprog\MyVector\MyVector\MyVector.cpp(31,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyVector.vcxproj -> E:\Kolledge\2 course\ooprog\MyVector\x64\Debug\MyVector.exe

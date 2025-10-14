@@ -11,8 +11,11 @@ public:
     ~MVector();
 
     void Init();
+    void Init(int* nArr, const int nSize);
     void Print();
     int GetSize()const;
+    void SetIndex(int i, int n);
+    int GetIndex(int i);
 
     int operator[] (int i);
     MVector& operator= (const MVector& obj);
