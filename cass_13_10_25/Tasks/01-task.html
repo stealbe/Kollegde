@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 01</title>
+    <style>
+        #colorOutput {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="colorOutput">
+    </div>
+
+    <script>
+        /*
+        Задание:
+        Сделайте так, чтобы при нажатии на клавишу G фон div#colorOutput становился зеленым.
+        при нажатии на клавишу R фон div#colorOutput становился красным, 
+        а при нажатии на клавишу B фон div#colorOutput становился синим.
+        */
+        let colorOutput = document.querySelector("#colorOutput");
+        colorOutput.style.border = "3px solid grey";
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "g" || e.key === "G") {
+                colorOutput.style.backgroundColor = "green";
+            } else if (e.key === "r" || e.key === "R") {
+                colorOutput.style.backgroundColor = "red";
+            } else if (e.key === "b" || e.key === "B") {
+                colorOutput.style.backgroundColor = "blue";
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        li {
+            font-weight: normal;
+        }
+    </style>
+    <div id="storage">
+
+    </div>
+    <script>
+        let storage = [
+            {
+                name: "This PC", files: [
+                    {
+                        name: "Local Disk (C:)", files: [
+                            { name: "Program Files", files: null },
+                            { name: "Users", files: null },
+                            { name: "Windows", files: null }
+                        ]
+                    },
+                    {
+                        name: "Local Disk (D:)", files: [
+                            { name: "New folder 1", files: null },
+                            { name: "New folder 2", files: null },
+                            { name: "New folder 3", files: null }
+                        ]
+                    },
+                    { name: "Local Disk (E:)", files: null }
+                ]
+            },
+        ];
+        storageList = document.querySelector("#storage");
+        function createList(arr, div) {
+            let ul = document.createElement("ul");
+            ul.style.display = "flex";
+            ul.style.flexDirection = "column";
+            ul.style.gap = "4px";
+            div.appendChild(ul);
+            for (let i = 0; i < arr.length; i++) {
+                let li = document.createElement("li");
+                li.textContent = arr[i].name;
+                li.addEventListener("mouseenter", hoverEffect);
+                li.addEventListener("mouseleave", RhoverEffect);
+                li.style.width = "fit-content";
+                ul.appendChild(li);
+                if (arr[i].files) {
+                    createList(arr[i].files, li);
+                }
+            }
+        }
+        function hoverEffect(e) {
+            e.target.style.fontWeight = "bold";
+        }
+        function RhoverEffect(e) {
+            e.target.style.fontWeight = "normal";
+        }
+        createList(storage, storageList);
+    </script>
+</body>
+
+</html>
