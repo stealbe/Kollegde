@@ -26,20 +26,50 @@ MVector& operator-- (MVector& obj)
     return obj;
 }
 
+ostream& operator<< (ostream& os, MVector& obj)
+{
+    for (size_t i = 0; i < obj.GetSize(); i++)
+    {
+        os << obj.GetIndex(i);
+    }
+    os << endl;
+    return os;
+}
+
+istream& operator>> (istream& is, MVector& obj)
+{
+    int iSize;
+    cout << "size: ";
+    is >> iSize;
+    int* iArr = new int[iSize];
+    cout << "Array of " << iSize << " nums: ";
+    for (size_t i = 0; i < iSize; i++)
+    {
+        cout << "Num " << i + 1 << ": ";
+        int n;
+        is >> n;
+        iArr[i] = n;
+    }
+    obj.Init(iArr, iSize);
+    return is;
+}
+
 
 int main() {
     srand(time(NULL));
 
     MVector vec1(10);
     vec1.Init();
-
-    for (int i = 0; i < vec1.GetSize(); i++)
-    {
-        cout << vec1[i] << endl;
-    }
-
-    return 0;
+    vec1.Print();
+    cout << endl;
+    cout << vec1 << endl;
 
     MVector vec2 = --vec1;
-    vec2.Print();
+    //vec2 = 10 + vec2;
+
+    cout << vec2 << endl;
+    MVector vec_t;
+    cin >> vec_t;
+    cout << vec_t << endl;
+    return 0;
 }

@@ -39,18 +39,30 @@ void MVector::Init()
 	}
 }
 
+void MVector::Init(int* nArr)
+{
+	if (arr != nullptr) delete[] arr;
+	size = streamsize(nArr);
+	int* newArr = new int[size + 1];
+	for (size_t i = 0; i < size + 1; i++)
+	{
+		newArr[i] = nArr[i];
+	}
+	arr = newArr;
+}
+
 void MVector::Init(int* nArr, const int nSize)
 {
 	if (arr != nullptr) delete[] arr;
-	arr = nArr;
 	size = nSize;
+	arr = nArr;
 }
 
 void MVector::Print()
 {
 	for (size_t i = 0; i < size; i++)
 	{
-		cout << arr[i] << endl;
+		cout << arr[i];
 	}
 }
 

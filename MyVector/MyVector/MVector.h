@@ -11,6 +11,7 @@ public:
     ~MVector();
 
     void Init();
+    void Init(int* nArr);
     void Init(int* nArr, const int nSize);
     void Print();
     int GetSize()const;
