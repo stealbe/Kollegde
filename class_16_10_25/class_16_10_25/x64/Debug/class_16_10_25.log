@@ -1,0 +1,11 @@
+﻿  FileName.cpp
+E:\Kolledge\2 course\ooprog\class_16_10_25\class_16_10_25\FileName.cpp(22,15): error C2110: +: невозможно добавить два указателя
+      E:\Kolledge\2 course\ooprog\class_16_10_25\class_16_10_25\FileName.cpp(22,15):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\Kolledge\2 course\ooprog\class_16_10_25\class_16_10_25\FileName.cpp(30,5):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void Sum<char*>(Type,Type)"
+          with
+          [
+              Type=char *
+          ]
+  
