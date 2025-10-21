@@ -90,7 +90,7 @@ int MVector::operator[](int i)
 MVector& MVector::operator=(const MVector& obj)
 {
 	if (this == &obj) return *this;
-	if (arr != nullptr) delete arr;
+	if (arr != nullptr) delete[] arr;
 	size = obj.size;
 	arr = new int[size + 1];
 	for (size_t i = 0; i < size + 1; i++)
