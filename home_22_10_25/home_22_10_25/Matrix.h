@@ -32,7 +32,6 @@ public:
             for (int j = 0; j < size[1]; ++j)
                 mat[i][j] = obj.mat[i][j];
         }
-        FillRandom();
     }
 
     ~Matrix() {
@@ -79,10 +78,39 @@ public:
         }
     }
 
+    Matrix<T>& operator= (const Matrix<T>& obj) {
+        if (this == &obj) return *this;
+        if (mat != nullptr) {
+            for (size_t i = 0; i < size[0]; i++)
+            {
+                delete[] mat[i];
+            }
+            delete[] mat;
+        }
+        size[0] = obj.size[0];
+        size[1] = obj.size[1];
+        if (size[0] > 0 && size[1] > 0)
+        {
+            mat = new T * [size[0]];
+            for (size_t i = 0; i < size[0]; i++)
+            {
+                mat[i] = new T[size[1]];
+                for (size_t j = 0; j < size[1]; j++)
+                {
+                    mat[i][j] = obj.mat[i][j];
+                }
+            }
+        }
+        else mat = nullptr;
+        return *this;
+    }
+
     Matrix<T> operator+ (Matrix<T>& obj) {
         Matrix<T> res;
-        if (size[0] != obj.size[0] && size[1] != obj.size[1]) return;
+        if (size[0] != obj.size[0] || size[1] != obj.size[1]) return *this;
         res.mat = new T * [size[0]];
+        res.size[0];
+        res.size[1];
         for (size_t i = 0; i < size[0]; i++)
         {
             res.mat[i] = new T[size[1]];
@@ -96,8 +124,10 @@ public:
 
     Matrix<T> operator- (Matrix<T>& obj) {
         Matrix<T> res;
-        if (size[0] != obj.size[0] && size[1] != obj.size[1]) return;
+        if (size[0] != obj.size[0] || size[1] != obj.size[1]) return *this;
         res.mat = new T * [size[0]];
+        res.size[0] = size[0];
+        res.size[1] = size[1];
         for (size_t i = 0; i < size[0]; i++)
         {
             res.mat[i] = new T[size[1]];
@@ -111,8 +141,10 @@ public:
 
     Matrix<T> operator* (Matrix<T>& obj) {
         Matrix<T> res;
-        if (size[0] != obj.size[0] && size[1] != obj.size[1]) return;
+        if (size[0] != obj.size[0] || size[1] != obj.size[1]) return *this;
         res.mat = new T * [size[0]];
+        res.size[0] = size[0];
+        res.size[1] = size[1];
         for (size_t i = 0; i < size[0]; i++)
         {
             res.mat[i] = new T[size[1]];
@@ -126,8 +158,10 @@ public:
 
     Matrix<T> operator/ (Matrix<T>& obj) {
         Matrix<T> res;
-        if (size[0] != obj.size[0] && size[1] != obj.size[1]) return;
+        if (size[0] != obj.size[0] || size[1] != obj.size[1]) return *this;
         res.mat = new T * [size[0]];
+        res.size[0] = size[0];
+        res.size[1] = size[1];
         for (size_t i = 0; i < size[0]; i++)
         {
             res.mat[i] = new T[size[1]];
