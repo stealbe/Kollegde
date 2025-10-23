@@ -64,7 +64,7 @@ public:
         }
     }
 
-    void FillRandom(T min = 0, T max = 100) {
+    void FillRandom(int min = 0, int max = 100) {
         for (int i = 0; i < size[0]; ++i)
             for (int j = 0; j < size[1]; ++j)
                 mat[i][j] = rand() % (max - min + 1) + min;
