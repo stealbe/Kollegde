@@ -25,7 +25,6 @@ int main()
 
 	obj1++;
 	obj1--;
-	obj1 = obj2;
 
 	system("pause");
 }

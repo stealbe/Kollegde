@@ -102,7 +102,6 @@ inline D_array<T>& D_array<T>::operator--(int)
 	{
 		mas[i] = temp.mas[i];
 	}
-
 	return temp;
 }
 
@@ -178,9 +177,9 @@ inline void D_array<T>::SetIndex(T n, int id)
 template<class T>
 ostream& operator<< (ostream& os, D_array<T>& obj)
 {
-	for (size_t i = 0; i < size; i++)
+	for (size_t i = 0; i < obj.size; i++)
 	{
-		os << mas[i];
+		os << obj.mas[i];
 	}
 	os << endl;
 	return os;

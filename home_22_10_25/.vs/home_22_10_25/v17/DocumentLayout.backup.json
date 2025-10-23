@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F29C0-06E8-4150-A445-34D89C03F395}|home_22_10_25\\home_22_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B4F29C0-06E8-4150-A445-34D89C03F395}|home_22_10_25\\home_22_10_25.vcxproj|solutionrelative:home_22_10_25\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F29C0-06E8-4150-A445-34D89C03F395}|home_22_10_25\\home_22_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1B4F29C0-06E8-4150-A445-34D89C03F395}|home_22_10_25\\home_22_10_25.vcxproj|solutionrelative:home_22_10_25\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parad\\Downloads\\Telegram Desktop\\16_\u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435_\u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B_\u0432_\u0448\u0430\u0431\u043B\u043E\u043D\u0435_\u043A\u043B\u0430\u0441\u0441\u0430,_\u0442\u0438\u043F_\u043F\u043E_\u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E,_\u0441\u0442\u0430\u0442\u0438\u043A\\6. \u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435 \u0438 \u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432\\Non-type and default arguments\\Non-type and default arguments\\StaticArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticArray.h",
+              "DocumentMoniker": "C:\\Users\\parad\\Downloads\\Telegram Desktop\\16_\u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435_\u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B_\u0432_\u0448\u0430\u0431\u043B\u043E\u043D\u0435_\u043A\u043B\u0430\u0441\u0441\u0430,_\u0442\u0438\u043F_\u043F\u043E_\u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E,_\u0441\u0442\u0430\u0442\u0438\u043A\\6. \u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435 \u0438 \u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432\\Non-type and default arguments\\Non-type and default arguments\\StaticArray.h",
+              "ToolTip": "C:\\Users\\parad\\Downloads\\Telegram Desktop\\16_\u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435_\u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B_\u0432_\u0448\u0430\u0431\u043B\u043E\u043D\u0435_\u043A\u043B\u0430\u0441\u0441\u0430,_\u0442\u0438\u043F_\u043F\u043E_\u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E,_\u0441\u0442\u0430\u0442\u0438\u043A\\6. \u041D\u0435\u0442\u0438\u043F\u043E\u0432\u044B\u0435 \u0438 \u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432\\Non-type and default arguments\\Non-type and default arguments\\StaticArray.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-23T06:24:22.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matrix.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\Matrix.h",
+              "RelativeDocumentMoniker": "home_22_10_25\\Matrix.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\Matrix.h",
+              "RelativeToolTip": "home_22_10_25\\Matrix.h",
+              "ViewState": "AgIAAIMAAAAA/P////8YwIgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-23T06:09:46.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\main.cpp",
+              "RelativeDocumentMoniker": "home_22_10_25\\main.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_22_10_25\\home_22_10_25\\main.cpp",
+              "RelativeToolTip": "home_22_10_25\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-23T06:09:31.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
