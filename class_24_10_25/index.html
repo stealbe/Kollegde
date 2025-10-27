@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="shop">
+        <nav id="filters"></nav>
+        <div id="prod_list">
+            <template id="card_temp">
+                <div class="card">
+                    <div class="conter_buts">
+                        <label for="like_prod" class="like_prod"><input type="button" value="like_prod"><img
+                                src="images/ui/heart.svg" alt="heart icon"></label>
+                        <label for="add_to_simple" class="add_to_simple"><input type="button" value="add_to_simple"><img
+                                src="images/ui/scales.svg" alt="scales icon"></label>
+                    </div>
+                    <span class="promo_label">-{{sale}}%</span>
+                    <a href="/products/{{id}}" class="card_img_link">
+                        <img src="{{preview_img}}" alt="{{brand}} {{model}}">
+                    </a>
+                    <div class="card_footer">
+                        <a href="/products/{{id}}" class="name link">
+                            {{brand}} {{model}}
+                        </a>
+                        <a href="/products/{{id}}/reviews" class="raiting_block">
+                            <span class="stars">
+                                <span class="y_stars" style="width: {{stars_width}}%;"></span>
+                                <span class="g_stars"></span>
+                            </span>
+                            <span class="reviews">
+                                <img src="images/ui/comments.svg" alt="reviews icon">
+                                <p>{{reviews_count}}</p>
+                            </span>
+                        </a>
+                        <div class="footer_mid">
+
+                            {{#has_sale}}
+                            <span class="sale_cost">
+                                <p class="old_cost">{{cost}} ₴</p>
+                                <p class="new_cost">{{new_cost}} ₴</p>
+                            </span>
+                            {{/has_sale}}
+                            {{^has_sale}}
+                            <span class="cost">
+                                <p>{{cost}}</p>
+                            </span>
+                            {{/has_sale}}
+                            <button class="add_to_cart">
+                                <img src="images/ui/cart.svg" alt="add to cart icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="spec_orders">
+                        <!-- <img src="images/" alt="">
+                            <img src="images/" alt=""> -->
+                        <span class="free_deliv">Безкоштовна доставка<img src="" alt="icon smart"></span>
+                        <span class="bonus"><img src="" alt="bonus icon">+{{bonus}} бонусних ₴</span>
+                    </div>
+                    <div class="hidden_descript">
+                        <p>{{description}}</p>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<script src="js/mustache.min.js"></script>
+<script type="module" src="main.js"></script>

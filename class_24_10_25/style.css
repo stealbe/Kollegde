@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --global-spacer: 4px;
+    --global-green: #00a046;
+    --global-green-hover: #008a3a;
+    --global-black: #221f1f;
+    --global-gray: #a6a5a5;
+    --global-border: #e5e5e5;
+    --global-red: #f84147;
+    --global-orange: #ff5c00;
+    --link-color: #3e77aa;
+    --link-hover-color: #ff7878;
+    --main-font-family: "Rozetka", BlinkMacSystemFont, -apple-system, Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+}
+
+#prod_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    padding: 12px;
+    background-color: #f5f5f5;
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    border: 1px solid var(--global-border);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    width: calc(20% - 12px);
+    cursor: pointer;
+}
+
+.card:hover {
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+.card .conter_buts {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 1;
+    transition: opacity 0.2s ease;
+}
+
+.card .conter_buts label {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+
+    & input {
+        display: none;
+    }
+}
+
+.card .conter_buts img {
+    width: -webkit-fill-available;
+}
+
+.card .promo_label {
+    background: var(--global-red);
+    font-size: 10px;
+    color: #fff;
+    width: max-content;
+    padding-left: calc(var(--global-spacer) * 2);
+    padding-right: calc(var(--global-spacer) * 2);
+    line-height: calc(var(--global-spacer) * 6);
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 50px;
+    display: inline-block;
+    font-family: Rozetka, BlinkMacSystemFont, -apple-system, Arial, Segoe UI, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card .card_img_link {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.card .card_img_link img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card_img_link img {
+    transform: scale(1.04);
+}
+
+/* Название */
+.card .name {
+    display: block;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #221f1f;
+    text-decoration: none;
+    font-family: var(--main-font-family);
+    margin: 8px 8px 0;
+    min-height: 36px;
+}
+
+.card .name:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Рейтинг и отзывы */
+.card .raiting_block {
+    display: flex;
+    align-items: center;
+    gap: 4px 8px;
+    margin: 4px 8px;
+    text-decoration: none;
+}
+
+.card .raiting_block .stars {
+    height: 20px;
+    width: 100px;
+    position: relative;
+    mask-image: url(images/ui/stars.svg);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+}
+
+.card .raiting_block .stars .y_stars {
+    display: block;
+    height: 100%;
+    background: #ffa900;
+    position: absolute;
+    z-index: 1;
+}
+
+.card .raiting_block .stars .g_stars {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--global-gray);
+    position: absolute;
+}
+
+.card .raiting_block .reviews img {
+    height: 14px;
+}
+
+.card .raiting_block .reviews {
+    font-size: 12px;
+    color: #221f1f;
+    font-family: var(--main-font-family);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card .footer_mid {
+    margin: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .footer_mid .sale_cost {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font-family);
+}
+
+.card .footer_mid .sale_cost .old_cost {
+    font-size: 13px;
+    color: var(--global-gray);
+    font-family: var(--main-font-family);
+    text-decoration: line-through;
+}
+
+.card .footer_mid .sale_cost .new_cost {
+    font-size: 20px;
+    color: var(--global-red);
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card .footer_mid .cost p {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+.card .add_to_cart {
+    border: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+.card .add_to_cart img {
+    width: -webkit-fill-available;
+}
+
+.card .spec_orders {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font-family);
+    padding: 4px 8px 8px;
+    font-size: 12px;
+    gap: 2px;
+}
+
+.card .spec_orders .free_deliv {
+    color: var(--global-green);
+    font-size: 11px;
+}
+
+.card .spec_orders .bonus {
+    font-size: 14px;
+    font-weight: 700;
+    color: #221f1f;
+}
+
+.card .hidden_descript {
+    display: none;
+    padding: 0 8px 8px;
+    font-family: var(--main-font-family);
+    color: #333;
+    font-size: 13px;
+}
+
+.card:hover .hidden_descript {
+    display: block;
+}
+
+/* Адаптив */
+@media (max-width: 1279px) {
+    .card {
+        width: calc(33.333% - 12px);
+    }
+}
+
+@media (max-width: 764px) {
+    .card {
+        width: calc(50% - 12px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
