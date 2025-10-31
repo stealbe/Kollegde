@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|solutionrelative:class_24_09_25\\Magazine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|solutionrelative:class_24_09_25\\Magazine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|solutionrelative:class_24_09_25\\Magazine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{935EB0BC-73F4-47CF-B911-7B579B8D0F08}|class_24_09_25\\class_24_09_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Magazine.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.cpp",
               "RelativeDocumentMoniker": "class_24_09_25\\Magazine.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.cpp",
               "RelativeToolTip": "class_24_09_25\\Magazine.cpp",
-              "ViewState": "AgIAAA4AAAAAzczMzMwiwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-24T08:48:04.201Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "class_24_09_25\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-24T08:33:24.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T08:33:24.434Z"
             }
           ]
         },
@@ -58,13 +57,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Magazine.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.h",
               "RelativeDocumentMoniker": "class_24_09_25\\Magazine.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_24_09_25\\class_24_09_25\\Magazine.h",
               "RelativeToolTip": "class_24_09_25\\Magazine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-24T08:28:59.726Z",
               "EditorCaption": ""
