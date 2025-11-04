@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Kolledge\2 course\algoritm\class_31_10_25\class_31_10_25\FileName.cpp(186,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  class_31_10_25.vcxproj -> E:\Kolledge\2 course\algoritm\class_31_10_25\x64\Debug\class_31_10_25.exe
