@@ -114,7 +114,17 @@ T& Del_arr(T& arrM, const int sizeM, T& arrS, const int sizeS)
 		
 		if (simp == sizeS)
 		{
-			for (size_t i = simp; i < sizeS; i--)
+			T* temp = new T[sizeM - sizeS];
+			int j = 0;
+			for (size_t i = 0; i < sizeM; i++)
+			{
+				if (i != ) temp[j++] = arrM[i];
+			}
+			while (simp > 0)
+			{
+				arrS[simp] = simp-- + i;
+			}
+			for (size_t j = i; j < simp + i; j++)
 			{
 
 			}
@@ -133,7 +143,7 @@ int main() {
 		cin >> size;
 		if (size < -0) throw "Size can't be <= 0";
 		arr = new int[size] {0};
-		Fill_arr(arr, size);
+		Fill_arr(&arr, size);
 	}
 	catch (const char* err)
 	{
