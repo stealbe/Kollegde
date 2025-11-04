@@ -4,7 +4,12 @@
 using namespace std;
 
 MVector::MVector() :arr(nullptr), size(0) {}
-MVector::MVector(int size):size(size), arr(new int [size]) {}
+MVector::MVector(int size)
+{
+	if (size < 0) throw "Size can't be < 0";
+	this->size = size;
+	arr = new int[size];
+}
 
 MVector::MVector(const MVector& obj)
 {
@@ -53,6 +58,7 @@ void MVector::Init(int* nArr)
 
 void MVector::Init(int* nArr, const int nSize)
 {
+	if (nSize < 0) throw "Size can't be < 0";
 	if (arr != nullptr) delete[] arr;
 	size = nSize;
 	arr = nArr;
@@ -83,6 +89,7 @@ int MVector::GetIndex(int i)
 
 int MVector::operator[](int i)
 {
+	if (i > size - 1 || i < 0) throw "i can't be > size | < 0";
 	if (i >= 0 && i < size) return arr[i];
 	return -1;
 }
@@ -102,6 +109,7 @@ MVector& MVector::operator=(const MVector& obj)
 
 MVector MVector::operator--(int)
 {
+	if (this->size - 1 < 0) throw "size can't be < 0";
 	MVector temp = *this;
 	int* tempArr = new int[size];
 	for (size_t i = 0; i < size - 1; i++)
@@ -141,6 +149,7 @@ void MVector::operator() ()
 
 void MVector::operator() (int* arr, int size)
 {
+	if (size < 0) throw "size can't be < 0";
 	this->size = size;
 	if (this->arr != nullptr) delete[] this->arr;
 	this->arr = new int[size + 1];
@@ -196,6 +205,7 @@ MVector& MVector::operator+=(MVector& obj)
 
 MVector& MVector::operator-=(int n)
 {
+	if (size - n + 1 < 0) throw "size can't be < 0";
 	int* tempArr = new int[size - n + 1];
 	for (size_t i = 0; i < size - n + 1; i++)
 	{
@@ -207,6 +217,7 @@ MVector& MVector::operator-=(int n)
 
 MVector& MVector::operator-=(MVector& obj)
 {
+	if (size - obj.size + 1 < 0) throw "size can't be < 0";
 	int* tempArr = new int[size - obj.size + 1];
 	for (size_t i = 0; i < size - obj.size + 1; i++)
 	{
