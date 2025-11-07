@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form large-form" id="bigForm">
+            <label>Имя
+                <input type="text" name="first_name" placeholder="Влад" required pattern="^[A-ZА-Я]{1}[a-zа-я]{2,}$">
+            </label>
+
+            <label>Фамилия
+                <input type="text" name="last_name" placeholder="Отченко" required pattern="^[A-ZА-Я]{1}[a-zа-я]{2,}$">
+            </label>
+
+            <label>Email
+                <input type="email" name="email" placeholder="example@gmail.com" required
+                    pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+            </label>
+
+            <label>Номер телефона
+                <input type="tel" name="phone" id="phone" placeholder="+38 066 123 45 67" required
+                    pattern="^\+38 \d{3} \d{3} \d{2} \d{2}$">
+            </label>
+
+            <label>Домашний адрес
+                <input type="text" name="address" placeholder="г. Киев, ул. Киевская, 1" required
+                    pattern="^(г\.|state\.)?\s?[A-ZА-Я][a-zа-я]+(?:[ -][A-ZА-Я][a-zа-я]+)*,\s?(ул\.|st\.)\s?[A-ZА-Я][a-zа-я]+([ -][A-ZА-Я][a-zа-я]+)?,\s?\d+([ -]\d+){1, 3}?$">
+            </label>
+
+            <label>Дата рождения
+                <input type="text" name="birth_date" placeholder="18/05/1997" required pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/\d{4}$">
+            </label>
+
+            <p class="note error">
+                ❌ Сейчас эта информация не нужна, большая форма
+            </p>
+        </form>
+
+        <form class="form small-form" id="smallForm">
+            <label>Имя
+                <input type="text" name="small_name" placeholder="Влад" required pattern="^[A-ZА-Я]{1}[a-zа-я]{2,}$">
+            </label>
+
+            <label>Email
+                <input type="email" name="small_email" placeholder="example@gmail.com" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+            </label>
+
+            <p class="note success">
+                ✅ Поля с важной информацией, хорошая форма
+            </p>
+
+            <div class="checkboxes">
+                <label><input type="checkbox" name="privacy_policy" required> Я согласен с политикой
+                    конфиденциальности</label>
+                <label><input type="checkbox" name="newsletter"> Хочу получать рассылку</label>
+                <label><input type="checkbox" name="personal_data"> Согласен на обработку персональных данных</label>
+            </div>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
