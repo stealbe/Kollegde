@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\algoritm\\forward_list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41DD6AAE-DADF-4A08-AE9C-D255A9FEDE80}|Project2\\Project2.vcxproj|E:\\Kolledge\\2 course\\algoritm\\forward_list\\Project2\\forward_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41DD6AAE-DADF-4A08-AE9C-D255A9FEDE80}|Project2\\Project2.vcxproj|solutionrelative:Project2\\forward_list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "forward_list.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\algoritm\\forward_list\\Project2\\forward_list.cpp",
+              "RelativeDocumentMoniker": "Project2\\forward_list.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\algoritm\\forward_list\\Project2\\forward_list.cpp",
+              "RelativeToolTip": "Project2\\forward_list.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-07T08:03:30.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

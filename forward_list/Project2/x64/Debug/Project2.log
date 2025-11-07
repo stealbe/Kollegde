@@ -1,0 +1,3 @@
+﻿  forward_list.cpp
+E:\Kolledge\2 course\algoritm\forward_list\Project2\forward_list.cpp(140,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Project2.vcxproj -> E:\Kolledge\2 course\algoritm\forward_list\x64\Debug\Project2.exe
