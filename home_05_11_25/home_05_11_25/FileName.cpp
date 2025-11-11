@@ -2,6 +2,19 @@
 #include <fstream>
 #include <string>
 using namespace std;
+
+bool ContainsWord(const string& filename, const string& target) {
+    ifstream file(filename);
+    if (!file) return false;
+
+    string word;
+    while (file >> word) {
+        if (word == target) return true;
+    }
+
+    return false;
+}
+
 int main() {
     /*ofstream file("user_input.txt", ios::app);
 
@@ -49,7 +62,7 @@ int main() {
     return 0; */
 
     // 6
-    ifstream main("main_6.txt", ios::in);
+    /* ifstream main("main_6.txt", ios::in);
     const int size = 250;
     char buf[size];
 
@@ -80,15 +93,22 @@ int main() {
         cpy_main.write(buf, bytesRead);
     }
 
-    cpy_main.close();
+    cpy_main.close(); */
 
     // 7
 
-    fstream file("index.html", ios::in | ios::out | ios:: app);
+    /*fstream file("index.html", ios::in | ios::app);
+    fstream fileN("index_cpy.html", ios::out | ios::app);
 
     string line;
     while (getline(file, line)) {
-        string src("src = """);
-        if (line.find("<img") >= 0 && line.find(src) >= 0);
+        string src("src=\"../images/UI/halloween_jack.svg\"");
+        bool is_nImg = line.find("<img") != string::npos && line.find(src) != string::npos;
+        if (!is_nImg) fileN << line << "\n";
     }
+
+    file.close();
+    fileN.close();*/
+
+    // 8
 }

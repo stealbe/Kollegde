@@ -1,4 +1,2 @@
 ﻿  FileName.cpp
-E:\Kolledge\2 course\ooprog\home_05_11_25\home_05_11_25\FileName.cpp(60,23): warning C4244: инициализация: преобразование "std::streamsize" в "int", возможна потеря данных
-E:\Kolledge\2 course\ooprog\home_05_11_25\home_05_11_25\FileName.cpp(75,23): warning C4244: инициализация: преобразование "std::streamsize" в "int", возможна потеря данных
   home_05_11_25.vcxproj -> E:\Kolledge\2 course\ooprog\home_05_11_25\x64\Debug\home_05_11_25.exe
