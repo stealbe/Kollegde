@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 04</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Completed</th>
+        </tr>
+        <template id="todoTemplate">
+            <tr>
+                <td class="userId"></td>
+                <td class="id"></td>
+                <td class="title"></td>
+                <td class="completed"></td>
+            </tr>
+        </template>
+    </table>
+    <script>
+        /*
+        Задание:
+        Напишите сценарий, который выполняет GET запрос по адресу https://jsonplaceholder.typicode.com/todos
+        И выводит содержимое ответа в виде таблицы.
+        */
+        let url = "https://jsonplaceholder.typicode.com/todos";
+        let table = document.querySelector("table");
+        let template = document.querySelector("#todoTemplate");
+
+        window.addEventListener("load", function () {
+            fetch(url)
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error("Ошибка при загрузке данных: " + response.status);
+                    }
+                })
+                .then(json => {
+                    if (json.ok === false) {
+                        table.innerHTML = "Ошибка на стороне сервера: " + json.status;
+                        return;
+                    }
+                    else {
+                        json.forEach(todo => {
+                            let clone = template.content.cloneNode(true);
+                            clone.querySelector(".userId").textContent = todo.userId;
+                            clone.querySelector(".id").textContent = todo.id;
+                            clone.querySelector(".title").textContent = todo.title;
+                            clone.querySelector(".completed").textContent = todo.completed;
+                            table.appendChild(clone);
+                        });
+                    }
+                })
+                .catch(error => {
+                    table.innerHTML = error.message;
+                });
+        });
+    </script>
+</body>
+
+</html>
