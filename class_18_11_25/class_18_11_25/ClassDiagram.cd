@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Animal" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIgAQAQAQAAAAQAAAAABAAAgIAACAAAEAAA=</HashCode>
+      <FileName>FileName.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Elephan">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAACAAIEAAA=</HashCode>
+      <FileName>FileName.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pengyin">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAACAAIEAAA=</HashCode>
+      <FileName>FileName.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parrot">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIACQAAEAAA=</HashCode>
+      <FileName>FileName.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shark">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAEAAA=</HashCode>
+      <FileName>FileName.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
