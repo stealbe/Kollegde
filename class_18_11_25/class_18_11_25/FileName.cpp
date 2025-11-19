@@ -167,6 +167,8 @@ int main() {
         return 0;
     }
     obj->Print();
+    obj->Eat();
+    obj->Move();
 
     delete obj;
     return 0;
