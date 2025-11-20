@@ -1,0 +1,20 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+class Figure
+{
+protected:
+
+    double m_value1;
+    double m_value2;
+
+public:
+
+    void SetDimension(const double value1);
+    void SetDimension(const double value1, const double value2);
+    void ShowArea() const;
+    void ShowLength() const { cout << "value 2 = " << m_value2 << endl; }
+    void Init(double m_value1, double m_value2) { this->m_value1 = m_value1; this->m_value2 = m_value2; }
+    void Print() const { cout << "value 1 = " << m_value1 << "\tvalue 2 = " << m_value2 << endl; }
+};
