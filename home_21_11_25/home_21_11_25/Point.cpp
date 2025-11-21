@@ -67,6 +67,14 @@ Point Point::operator%(int n)
 	return Point(x & n, y & n);
 }
 
+Point& Point::operator=(Point& obj)
+{
+	if (this == &obj) return *this;
+	this->x = obj.x;
+	this->y = obj.y;
+	return *this;
+}
+
 bool Point::operator==(Point& obj)
 {
 	return (x == obj.x && y == obj.y);

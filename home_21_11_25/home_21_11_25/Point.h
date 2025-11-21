@@ -23,6 +23,7 @@ public:// интерфейс класса, прототипы методов
 	Point operator- (int n);
 	Point operator% (Point& obj);
 	Point operator% (int n);
+	Point& operator= (Point& obj);
 	bool operator== (Point& obj);
 	bool operator!= (Point& obj);
 	bool operator> (Point& obj);

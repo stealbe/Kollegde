@@ -7,12 +7,15 @@
       "RelativeMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|solutionrelative:home_21_11_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|solutionrelative:home_21_11_25\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|solutionrelative:home_21_11_25\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parad\\AppData\\Local\\Temp\\7bcdc5bf-5dba-4770-b134-8a013ff11223_33.1 \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B.zip.223\\12. \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B\\1. \u0418\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u044B\\\u041F\u0440\u0438\u043C\u0435\u0440 1. \u0421\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044F \u0438 \u0438\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u0430.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8D927B9-A476-4EAA-8C7F-4B70418C8D8E}|home_21_11_25\\home_21_11_25.vcxproj|solutionrelative:home_21_11_25\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +25,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u041F\u0440\u0438\u043C\u0435\u0440 1. \u0421\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044F \u0438 \u0438\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u0430.cpp",
+              "DocumentMoniker": "C:\\Users\\parad\\AppData\\Local\\Temp\\7bcdc5bf-5dba-4770-b134-8a013ff11223_33.1 \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B.zip.223\\12. \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B\\1. \u0418\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u044B\\\u041F\u0440\u0438\u043C\u0435\u0440 1. \u0421\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044F \u0438 \u0438\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u0430.cpp",
+              "ToolTip": "C:\\Users\\parad\\AppData\\Local\\Temp\\7bcdc5bf-5dba-4770-b134-8a013ff11223_33.1 \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B.zip.223\\12. \u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u0430\u044F \u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u0421\u002B\u002B\\1. \u0418\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u044B\\\u041F\u0440\u0438\u043C\u0435\u0440 1. \u0421\u0440\u0430\u0432\u043D\u0435\u043D\u0438\u044F \u0443\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044F \u0438 \u0438\u0442\u0435\u0440\u0430\u0442\u043E\u0440\u0430.cpp [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-21T11:15:56.026Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,33 +46,33 @@
               "RelativeDocumentMoniker": "home_21_11_25\\FileName.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\FileName.cpp",
               "RelativeToolTip": "home_21_11_25\\FileName.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-21T10:54:31.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Point.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.h",
               "RelativeDocumentMoniker": "home_21_11_25\\Point.h",
               "ToolTip": "E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.h",
               "RelativeToolTip": "home_21_11_25\\Point.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-21T10:54:23.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Point.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.cpp",
               "RelativeDocumentMoniker": "home_21_11_25\\Point.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\algoritm\\home_21_11_25\\home_21_11_25\\Point.cpp",
               "RelativeToolTip": "home_21_11_25\\Point.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAhwCQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-21T10:54:22.13Z",
               "EditorCaption": ""
