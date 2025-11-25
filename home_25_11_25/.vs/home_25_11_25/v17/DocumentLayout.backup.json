@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Airship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Airship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Heli.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Heli.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Plain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Plain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\MotorShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\MotorShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FlyVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\FlyVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\WaterVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\WaterVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FuelCargo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\FuelCargo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Truck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Truck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Train.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Train.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\GroundVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\GroundVeh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C48BA97-993C-4E40-9A5C-35CB2B6CE0D9}|home_25_11_25\\home_25_11_25.vcxproj|solutionrelative:home_25_11_25\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Airship.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Airship.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Airship.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Airship.h",
+              "RelativeToolTip": "home_25_11_25\\Airship.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T14:25:29.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Heli.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Heli.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Heli.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Heli.h",
+              "RelativeToolTip": "home_25_11_25\\Heli.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T14:15:03.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plain.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Plain.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Plain.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Plain.h",
+              "RelativeToolTip": "home_25_11_25\\Plain.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T14:14:18.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MotorShip.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\MotorShip.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\MotorShip.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\MotorShip.h",
+              "RelativeToolTip": "home_25_11_25\\MotorShip.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:36:36.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Boat.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Boat.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Boat.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Boat.h",
+              "RelativeToolTip": "home_25_11_25\\Boat.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:34:35.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FuelCargo.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FuelCargo.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\FuelCargo.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FuelCargo.h",
+              "RelativeToolTip": "home_25_11_25\\FuelCargo.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:33:53.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Truck.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Truck.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Truck.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Truck.h",
+              "RelativeToolTip": "home_25_11_25\\Truck.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:32:42.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Train.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Train.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Train.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Train.h",
+              "RelativeToolTip": "home_25_11_25\\Train.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:31:47.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Car.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Car.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Car.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Car.h",
+              "RelativeToolTip": "home_25_11_25\\Car.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T10:30:05.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FlyVeh.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FlyVeh.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\FlyVeh.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FlyVeh.h",
+              "RelativeToolTip": "home_25_11_25\\FlyVeh.h",
+              "ViewState": "AgIAAAYAAAAANDMzMzPbvw0AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T09:49:55.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WaterVeh.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\WaterVeh.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\WaterVeh.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\WaterVeh.h",
+              "RelativeToolTip": "home_25_11_25\\WaterVeh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T09:49:40.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GroundVeh.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\GroundVeh.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\GroundVeh.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\GroundVeh.h",
+              "RelativeToolTip": "home_25_11_25\\GroundVeh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T09:49:22.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vehicle.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Vehicle.h",
+              "RelativeDocumentMoniker": "home_25_11_25\\Vehicle.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\Vehicle.h",
+              "RelativeToolTip": "home_25_11_25\\Vehicle.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-25T09:48:41.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FileName.cpp",
+              "RelativeDocumentMoniker": "home_25_11_25\\FileName.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\home_25_11_25\\home_25_11_25\\FileName.cpp",
+              "RelativeToolTip": "home_25_11_25\\FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-25T09:48:18.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

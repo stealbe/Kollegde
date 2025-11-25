@@ -1,162 +1,201 @@
 ﻿  Circle.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Circle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Circle.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Circle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Circle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Circle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Circle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Circle.h(11,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Circle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Circle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Circle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Circle.h(11,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Circle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
   Figure.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Figure.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Figure.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Figure.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Figure.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Figure.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Figure.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Figure.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Figure.cpp')
   
   Main.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Main.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Circle.h(11,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Circle.h(11,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,39): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Main.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,39): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Main.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\RHome.h(9,19): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
+      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
+      see declaration of 'Figure::m_value1'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\RHome.h(9,36): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Main.cpp')
+      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
+      see declaration of 'Figure::m_value2'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Square.h(9,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
+      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
+      see declaration of 'Figure::m_value1'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Paral.h(11,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Main.cpp')
+      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
+      see declaration of 'Figure::m_value1'
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Paral.h(11,39): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Main.cpp')
+      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
+      see declaration of 'Figure::m_value2'
   
   Rectangle.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Rectangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Rectangle.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Rectangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Rectangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Rectangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Rectangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Rectangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Rectangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Rectangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Rectangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Rectangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Rectangle.h(12,39): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Rectangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
-  
-  RHome.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "RHome.cpp")
-  
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "RHome.cpp")
-      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
-  
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "RHome.cpp")
-      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
-  
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\RHome.cpp(10,25): warning C4458: объявление "m_value1" скрывает член класса
-      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
-  
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\RHome.cpp(10,42): warning C4458: объявление "m_value2" скрывает член класса
-      E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
   Square.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Square.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Square.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Square.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Square.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Square.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Square.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Square.h(9,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Square.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Square.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Square.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Square.h(9,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Square.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
   Triangle.cpp
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): error C2220: следующее предупреждение рассматривается как ошибка
-  (компиляция исходного файла "Triangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): error C2220: the following warning is treated as an error
+  (compiling source file 'Triangle.cpp')
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Triangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Triangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Triangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Triangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,22): warning C4458: объявление "m_value1" скрывает член класса
-  (компиляция исходного файла "Triangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,47): warning C4100: 'm_value2': unreferenced parameter
+  (compiling source file 'Triangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(18,30): warning C4100: 'm_value1': unreferenced parameter
+  (compiling source file 'Triangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,22): warning C4458: declaration of 'm_value1' hides class member
+  (compiling source file 'Triangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(9,12):
-       см. объявление "Figure::m_value1"
+      see declaration of 'Figure::m_value1'
   
-E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,39): warning C4458: объявление "m_value2" скрывает член класса
-  (компиляция исходного файла "Triangle.cpp")
+E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Triangle.h(11,39): warning C4458: declaration of 'm_value2' hides class member
+  (compiling source file 'Triangle.cpp')
       E:\Kolledge\2 course\ooprog\home_20_11_25\Раннее связывание. Пример 2\Figure.h(10,12):
-       см. объявление "Figure::m_value2"
+      see declaration of 'Figure::m_value2'
   
-  Создание кода...
+  Generating Code...

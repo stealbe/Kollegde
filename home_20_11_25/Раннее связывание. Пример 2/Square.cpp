@@ -1,5 +1,5 @@
 #include "Square.h"
-#include <iostream>
+//#include <iostream>
 using namespace std;
 
 void Square::ShowArea() const

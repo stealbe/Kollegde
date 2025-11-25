@@ -8,8 +8,8 @@ protected:
     double m_value2;
 
 public:
-
+	Figure() : m_value1(0), m_value2(0) {}
     void SetDimension(const double value1);
     void SetDimension(const double value1, const double value2);
-    void ShowArea() const;
+    virtual void ShowArea() const;
 };
