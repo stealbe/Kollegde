@@ -23,3 +23,19 @@ obj/
 [Rr]elease/
 x64/
 x86/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+*.log
+*.tmp
+*.bak
+*.swp
