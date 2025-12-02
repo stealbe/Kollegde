@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Получение прогноза погоды</title>
+</head>
+<style>
+    * {
+        font-size: 32px;
+    }
+
+    span {
+        color: red;
+        font-size: 32px;
+    }
+
+    #img {
+        margin-top: 20px;
+        background: lightblue;
+        border-radius: 4px;
+    }
+
+    .weather_sect {
+        margin-top: 20px;
+        border: 2px solid black;
+        padding: 20px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <form action="search" method="get">
+        <input type="text" name="city" id="cityInput" placeholder="Введите город" />
+        <input type="submit" value="Получить прогноз погоды" />
+    </form>
+    <section class="weather_sect">
+        <h1>Прогноз погоды - <span id=city> </span></h1>
+        <img id="img" />
+        <div>
+            <div id="weather"></div>
+            <div id="sunset"></div>
+            <div id="sunrise"></div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
