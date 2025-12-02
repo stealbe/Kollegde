@@ -1,17 +1,21 @@
-﻿Build started 9/27/2014 11:31:49 AM.
-     1>Project "E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Позднее связывание (указатели).vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
-         Main.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Debug\Позднее связывание (указатели).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Debug\Позднее связывание (указатели).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Debug\Позднее связывание (указатели).lib" /MACHINE:X86 Debug\Circle.obj
-         Debug\Figure.obj
-         Debug\Main.obj
-         Debug\Rectangle.obj
-         Debug\Triangle.obj
-         Позднее связывание (указатели).vcxproj -> E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Debug\Позднее связывание (указатели).exe
-     1>Done Building Project "E:\Academy\C++\Examples\8. Полиморфизм\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Позднее связывание (указатели).vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:05.81
+﻿  Main.cpp
+E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26): error C2259: 'Circle': cannot instantiate abstract class
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Circle.h(6,7):
+      see declaration of 'Circle'
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26):
+      due to following members:
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26):
+      'void Figure::ShowArea(void) const': is abstract
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Figure.h(15,18):
+      see declaration of 'Figure::ShowArea'
+  
+E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22): error C2259: 'Circle': cannot instantiate abstract class
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Circle.h(6,7):
+      see declaration of 'Circle'
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22):
+      due to following members:
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22):
+      'void Figure::ShowArea(void) const': is abstract
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Figure.h(15,18):
+      see declaration of 'Figure::ShowArea'
+  

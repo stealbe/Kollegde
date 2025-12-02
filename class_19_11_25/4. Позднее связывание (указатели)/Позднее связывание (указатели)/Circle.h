@@ -1,5 +1,6 @@
 #pragma once
-
+#include <iostream>
+using namespace std;
 #include "Figure.h"
 
 class Circle :
@@ -7,5 +8,8 @@ class Circle :
 {
 public:
 
-    virtual void ShowArea() const;
+    virtual void ShowArea() const
+    {
+        cout << "Square of circle: " << 3.14159 * m_value1 * m_value2 << endl;
+    }
 };
