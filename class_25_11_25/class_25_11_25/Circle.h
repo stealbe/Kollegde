@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Figure.h"
+#include <iostream>
+using namespace std;
 
 class Circle :
     public Figure
