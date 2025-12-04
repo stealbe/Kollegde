@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\WorldOfAnimal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\WorldOfAnimal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Continent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Continent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\NorthAmerica.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\NorthAmerica.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wolf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Wolf.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Lion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Lion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Bison.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Bison.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Herbivore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Herbivore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wildebeest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Wildebeest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Africa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Africa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Carnivore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Carnivore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Animal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5DB199AD-294F-4BF0-8B76-E6465531FD56}|class_04_12_25\\class_04_12_25.vcxproj|solutionrelative:class_04_12_25\\Animal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorldOfAnimal.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\WorldOfAnimal.cpp",
+              "RelativeDocumentMoniker": "class_04_12_25\\WorldOfAnimal.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\WorldOfAnimal.cpp*",
+              "RelativeToolTip": "class_04_12_25\\WorldOfAnimal.cpp*",
+              "ViewState": "AgIAACsAAACAz8zMzMwnwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-04T09:37:06.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "class_04_12_25\\ClassDiagram.cd",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\ClassDiagram.cd",
+              "RelativeToolTip": "class_04_12_25\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-12-04T09:25:03.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wolf.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wolf.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Wolf.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wolf.h",
+              "RelativeToolTip": "class_04_12_25\\Wolf.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:24:22.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lion.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Lion.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Lion.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Lion.h",
+              "RelativeToolTip": "class_04_12_25\\Lion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:23:31.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bison.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Bison.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Bison.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Bison.h",
+              "RelativeToolTip": "class_04_12_25\\Bison.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:13:13.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Wildebeest.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wildebeest.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Wildebeest.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Wildebeest.h",
+              "RelativeToolTip": "class_04_12_25\\Wildebeest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:09:25.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NorthAmerica.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\NorthAmerica.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\NorthAmerica.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\NorthAmerica.h",
+              "RelativeToolTip": "class_04_12_25\\NorthAmerica.h",
+              "ViewState": "AgIAAAIAAAAAMzMzM3MvwAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:08:44.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Africa.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Africa.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Africa.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Africa.h",
+              "RelativeToolTip": "class_04_12_25\\Africa.h",
+              "ViewState": "AgIAAAAAAADlMjMzM/MmwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:08:02.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Carnivore.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Carnivore.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Carnivore.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Carnivore.h",
+              "RelativeToolTip": "class_04_12_25\\Carnivore.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:06:35.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Herbivore.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Herbivore.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Herbivore.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Herbivore.h",
+              "RelativeToolTip": "class_04_12_25\\Herbivore.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:06:17.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Continent.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Continent.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Continent.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Continent.h",
+              "RelativeToolTip": "class_04_12_25\\Continent.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:05:32.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Animal.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Animal.h",
+              "RelativeDocumentMoniker": "class_04_12_25\\Animal.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_04_12_25\\class_04_12_25\\Animal.h",
+              "RelativeToolTip": "class_04_12_25\\Animal.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-04T09:06:01.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
