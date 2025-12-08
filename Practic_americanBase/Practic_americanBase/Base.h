@@ -15,10 +15,10 @@ protected:
 	vector<Vehicle*> vehicles;
 public:
 	Base(vector<Human*> soliders = {}, vector<Vehicle*> vehicles = {})
-		: soliders(soliders), vehicles(vehicles) {
-	}
+		: soliders(soliders), vehicles(vehicles) {}
 	Base(vector<Human*> soliders, vector<Vehicle*> vehicles, int people_count, int vehicle_count, double petrol_amount, double goods_amount)
-		: soliders(soliders), vehicles(vehicles) {
+		: soliders(soliders), vehicles(vehicles)
+	{
 		people_on_base = people_count;
 		vehicles_on_base = vehicle_count;
 		petrol_on_base = petrol_amount;
@@ -111,7 +111,7 @@ public:
 		}
 		else return 0;
 	}
-	int getSoliderCount() const {
+	size_t getSoliderCount() const {
 		return soliders.size();
 	}
 	vector<Human*> getSolidersList() const {
@@ -121,8 +121,3 @@ public:
 		return vehicles;
 	}
 };
-
-int Base::people_on_base = 5000;
-int Base::vehicles_on_base = 1500;
-double Base::petrol_on_base = 20000.0; // in liters
-double Base::goods_on_base = 50.0; // in tones

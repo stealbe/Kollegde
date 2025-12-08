@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Bus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Bus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Vehicle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Truck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Truck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Vehicle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Base.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Human.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\Human.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{FF111090-0CF7-43F2-939C-67183D0E7E9D}|Practic_americanBase\\Practic_americanBase.vcxproj|solutionrelative:Practic_americanBase\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +54,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Base.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.cpp",
+              "RelativeDocumentMoniker": "Practic_americanBase\\Base.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.cpp",
+              "RelativeToolTip": "Practic_americanBase\\Base.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T07:48:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Human.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.cpp",
+              "RelativeDocumentMoniker": "Practic_americanBase\\Human.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.cpp",
+              "RelativeToolTip": "Practic_americanBase\\Human.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T07:36:21.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.cpp",
+              "RelativeDocumentMoniker": "Practic_americanBase\\Vehicle.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.cpp",
+              "RelativeToolTip": "Practic_americanBase\\Vehicle.cpp",
+              "ViewState": "AgIAAAIAAABAZmZmZuYswBcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T07:26:04.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "Practic_americanBase\\ClassDiagram.cd",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\ClassDiagram.cd",
+              "RelativeToolTip": "Practic_americanBase\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-12-08T07:09:57.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Human.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Human.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Human.h",
               "RelativeToolTip": "Practic_americanBase\\Human.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T09:52:31.633Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Entity.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Entity.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Entity.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Entity.h",
               "RelativeToolTip": "Practic_americanBase\\Entity.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T17:01:58.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Control.cpp",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Control.cpp",
               "RelativeDocumentMoniker": "Practic_americanBase\\Control.cpp",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Control.cpp",
               "RelativeToolTip": "Practic_americanBase\\Control.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvywAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-04T16:45:21.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Truck.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Truck.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Truck.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Truck.h",
               "RelativeToolTip": "Practic_americanBase\\Truck.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAABAz8zMzMwnwFIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T11:40:09.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Bus.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Bus.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Bus.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Bus.h",
               "RelativeToolTip": "Practic_americanBase\\Bus.h",
-              "ViewState": "AgIAAAMAAAAAMDMzMzPrvxIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAIDMzMzP7v1UAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T11:40:00.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Vehicle.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Vehicle.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Vehicle.h",
               "RelativeToolTip": "Practic_americanBase\\Vehicle.h",
-              "ViewState": "AgIAAEAAAAAAAAAAAADwv1cAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAACAMzMzM3MvwAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T09:51:34.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Base.h",
               "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.h",
               "RelativeDocumentMoniker": "Practic_americanBase\\Base.h",
               "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\Practic_americanBase\\Practic_americanBase\\Base.h",
               "RelativeToolTip": "Practic_americanBase\\Base.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAjwA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAADgMjMzMzMrwHoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-04T09:48:58.84Z",
               "EditorCaption": ""

@@ -24,12 +24,12 @@ int main()
 			new Human("Daniel", "White", 31),
 			new Human("Sophia", "Harris", 24)
 	}, vector<Vehicle*>{
-			new Truck(new Human("Driver1", "Truck", 45), 100, 20.0, 10.0),
-			new Bus(new Human("Driver2", "Bus", 38), 80, 15.0, 50.0),
-			new Truck(new Human("Driver3", "Truck", 50), 120, 25.0, 15.0),
-			new Bus(new Human("Driver4", "Bus", 42), 90, 18.0, 60.0),
-			new Truck(new Human("Driver5", "Truck", 37), 110, 22.0, 12.0),
-			new Bus(new Human("Driver6", "Bus", 39), 85, 16.0, 55.0),
+			new Truck(new Human("Driver1", "Truck", 45), true, 20.0, 10.0),
+			new Bus(new Human("Driver2", "Bus", 38), true, 15.0, 50),
+			new Truck(new Human("Driver3", "Truck", 50), true, 25.0, 15.0),
+			new Bus(new Human("Driver4", "Bus", 42), true, 18.0, 60),
+			new Truck(new Human("Driver5", "Truck", 37), true, 22.0, 12.0),
+			new Bus(new Human("Driver6", "Bus", 39), true, 16.0, 55),
 			new Bus(30.0, 120.0, 40),
 			new Truck(50.0, 200.0, 20.0),
 			new Bus(new Human("Driver7", "Bus", 41), false, 95.0, 65),
@@ -42,7 +42,6 @@ int main()
 	size_t index = -1;
 	int personnelMenu = 0;
 	Human* newSolider;
-	size_t index = -1;
 	do
 	{
 		cout << "Base Control Menu:\n";
@@ -50,6 +49,7 @@ int main()
 		cout << "2. Manage Vehicles\n";
 		cout << "3. Manage Personnel\n";
 		cout << "0. Exit\n";
+		cin >> menu;
 		switch (menu)
 		{
 		case 1:
@@ -72,6 +72,7 @@ int main()
 				cout << "2. Add Vehicle\n";
 				cout << "3. Remove Vehicle\n";
 				cout << "0. Back to Main Menu\n";
+				cin >> vehicleMenu;
 				switch (vehicleMenu)
 				{
 				case 1:
@@ -122,10 +123,9 @@ int main()
 					break;
 				default:
 					cout << "Returning to Main Menu...\n";
-					return 0;
 					break;
 				}
-			} while (true);
+			} while (vehicleMenu != 0);
 			break;
 		}
 		case 3:
@@ -164,15 +164,13 @@ int main()
 					break;
 				default:
 					cout << "Returning to Main Menu...\n";
-					return 0;
 					break;
 				}
-			} while (true);
+			} while (personnelMenu != 0);
 				break;
 		default:
 			cout << "Exiting Base Control...\n";
-			return 0;
 			break;
 			}
-	} while (true);
+	} while (menu != 0);
 };

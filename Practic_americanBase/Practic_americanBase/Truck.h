@@ -69,9 +69,7 @@ public:
 	}
 	bool leave() override
 	{
-		if (driver == nullptr) return 0;
-		if (!isActive) return 0;
-		if (Base::getVehicles() <= 0) return 0;
+		if (driver == nullptr || Base::getPeople() <= 0 || !isActive || Base::getVehicles() <= 0) return 0;
 		if (fuel < fuelCapacity && Base::getPetrol() > 0)
 		{
 			if (fuelCapacity - fuel <= Base::getPetrol())
