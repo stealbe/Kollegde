@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            border: red 3px solid;
+            border-radius: 8px;
+            width: 520px;
+        }
+        .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            width: 520px;
+        }
+        .nav button{
+            border: red 3px solid;
+            border-radius: 4px;
+            background: none;
+            font-size: 24px;
+
+        }
+    </style>
+    <img src="images/5.gif" name="picture" />
+    <br />
+    <div class="nav">
+        <button id="backImage">📷 - Back</button>
+        <button id="nextImage">Next -> 📷</button>
+    </div>
+    <script type="text/javascript">
+        document.getElementById("nextImage").addEventListener("click", nextImage);
+        document.getElementById("backImage").addEventListener("click", backImage);
+        var locations = new Array("images/1.gif", "images/2.gif",
+            "images/3.gif", "images/4.gif");
+        var currentImage = 0;
+
+        setInterval("nextImage()", 1000 * 10);
+        
+        function nextImage() {
+            currentImage++;
+            if (currentImage == locations.length) 
+                currentImage = 0;                
+            document.images["picture"].src = locations[currentImage];
+            return false;
+        }
+        function backImage() {
+            currentImage--;
+            if (currentImage < 0)
+                currentImage = locations.length - 1;
+            document.images["picture"].src = locations[currentImage];
+            return false;
+        }
+    </script>
+</body>
+</html>

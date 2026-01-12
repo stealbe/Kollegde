@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let name = "";
+        let age = 0;
+        let isStudent = false;
+        let hobbies = "";
+        let address = {
+            street: "",
+            city: "",
+            zipCode: ""
+        };
+        prompt("Enter your name:", name);
+        prompt("Enter your age:", age);
+        confirm("Are you a student?", isStudent);
+        prompt("Enter your hobbies (comma separated):", hobbies);
+        prompt("Enter your street address:", address.street);
+        prompt("Enter your city:", address.city);
+        prompt("Enter your zip code:", address.zipCode);
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("Is Student:", isStudent);
+        console.log("Hobbies:", hobbies.split(",").map(hobby => hobby.trim()));
+        console.log("Address:", address);
+        alert("Thank you for providing your information!");
+        alert(`Name: ${name}\nAge: ${age}\nIs Student: ${isStudent}\nHobbies: ${hobbies}\nAddress: ${address.street}, ${address.city}, ${address.zipCode}`);
+    </script> -->
+
+    <script>
+        let useryear = prompt("Enter a year:");
+        const nowyear = 2025;
+        alert(`You are ${nowyear - useryear} years old.`);
+    </script>
+
+    <script>
+        let a = prompt("Enter a side of cube:");
+        alert('The Perimeter of the cube is ' + (4 * a));
+    </script>
+
+    <script>
+        let curcleRadius = prompt("Enter the R of circle:");
+        alert('The S = ' + (Math.PI * curcleRadius * curcleRadius));
+        // Math.floor(x) → принимает число x и округляет вниз.
+
+        // Math.ceil(x) → принимает число x и округляет вверх.
+
+        // Math.round(x) → принимает число x и округляет до ближайшего целого.
+
+        // Math.max(...numbers) → принимает любое количество чисел и возвращает наибольшее.
+
+        // Math.min(...numbers) → наоборот, минимальное число.
+
+        // Math.random() → не принимает аргументов, возвращает случайное число от 0 до 1.
+
+        // Math.pow(x, y) → принимает два числа и возвращает x^y.
+
+        // и т. д.
+    </script>
+
+    <script>
+        let distance = prompt("Enter the distance between two cities (km):");
+        let time = prompt("Enter the time to cover the distance (hours):");
+        alert('You need go at ' + (distance / time) + ' km/h to cover the distance in want time.');
+    </script>
+
+    <script>
+        let usd = prompt("Enter the amount in USD:");
+        const exchangeRate = 0.85;
+        let eur = usd * exchangeRate;
+        alert(`${usd} USD is approximately ${eur.toFixed(2)} EUR.`);
+    </script>
+
+    <script>
+        let bufer = prompt("Enter bufer of yurs flesh in GB:");
+        const file = 820;
+        alert('You can paste ' + Math.floor(bufer * 1024 / file) + ' files of 820 MB size.');
+    </script>
+</body>
+
+</html>

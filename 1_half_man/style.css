@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #eee;
+    text-align: center;
+}
+
+canvas {
+    background: #222;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+select,
+button,
+input {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}

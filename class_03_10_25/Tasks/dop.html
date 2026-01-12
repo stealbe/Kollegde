@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="paper"></div>
+    <div id="paper2"></div>
+    <div id="paper3"></div>
+    <script>
+        class Marker {
+            #color;
+            #inkAmount;
+            constructor(color, inkAmount = 100) {
+                this.#color = color;
+                this.#inkAmount = inkAmount > 100 ? 100 : inkAmount;
+            }
+            set inkAmount(value) {
+                this.#inkAmount = value;
+            }
+            set color(value) {
+                this.#color = value;
+            }
+            Print(paper, text) {
+                for (let i = 0; i < text.length && this.#inkAmount > 0; i++) {
+                    if (text[i] !== " ") this.#inkAmount -= 0.5;
+                    document.querySelector(paper).innerHTML += `<span style="color: ${this.#color}; opacity: ${this.#inkAmount + 0.1}%;">${text[i]}</span>`;
+                }
+                if (this.#inkAmount <= 0) console.log("Маркер закончился!");
+            }
+            get inkAmount() {
+                return this.#inkAmount;
+            }
+            get color() {
+                return this.#color;
+            }
+        }
+        class Ref_marker extends Marker {
+            Refill(value = 100) {
+                this.inkAmount += value;
+            }
+        }
+
+        const marker1 = new Ref_marker("red");
+        marker1.Print("#paper", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid beatae expedita nisi tempore quisquam aliquam totam error, eos officia modi exercitationem recusandae quam mollitia saepe dolorum. Explicabo nihil officia exercitationem placeat. Facere voluptatibus exercitationem a eveniet! Porro, neque enim quod atque nobis aperiam quasi omnis recusandae aut delectus. Exercitationem quaerat quod et culpa tempore. Suscipit, odit quos quo impedit assumenda obcaecati eligendi non error dolor consequuntur, ullam, voluptatibus hic nisi delectus id porro numquam accusamus veniam laborum dolore ex alias adipisci ducimus expedita! Suscipit, laborum pariatur debitis ab iste ea neque deleniti obcaecati consequatur saepe voluptates placeat ipsam ullam architecto quo repudiandae velit quam rerum illum mollitia dolore culpa beatae quae fugiat! Veritatis obcaecati soluta porro ad ratione harum adipisci quis nisi sed dicta illum ipsa at modi exercitationem mollitia corrupti tempora facere nobis officia vel perferendis quaerat quas, eos illo. At minima, harum ipsum nobis iste reiciendis explicabo saepe. Voluptas aliquam soluta cupiditate? Amet voluptate impedit fuga modi praesentium sint nobis labore deleniti odit quo quaerat nihil similique error dicta, perspiciatis, minima provident. Nulla aspernatur aliquid, praesentium molestiae dolor a ad voluptatum blanditiis cumque necessitatibus, consectetur iure quaerat, fugit magnam voluptate saepe facere fugiat explicabo odit dicta rerum itaque nisi. Laudantium rem totam cum id culpa vitae deleniti temporibus cumque quis? Eum, maiores maxime quis laboriosam aliquid iusto consequuntur asperiores quidem vel veritatis. Hic eaque voluptatibus ad numquam, autem repellat corporis adipisci voluptas ratione illum quia atque amet pariatur aperiam repudiandae ipsam, soluta fuga saepe nisi deserunt voluptatum dicta iusto? Rem, quibusdam in, non sunt magni officia culpa voluptatem quae reprehenderit officiis doloremque! Vitae ut officiis numquam corporis qui, perferendis sequi assumenda sunt, ratione, omnis earum? A eaque vero quas est iure neque sapiente fugit perspiciatis. Quidem debitis id, vel officiis explicabo atque architecto deleniti blanditiis temporibus saepe impedit nisi aut est? Nostrum eaque ipsam, exercitationem deserunt, autem ea soluta hic tenetur necessitatibus harum explicabo aut facilis tempora eveniet consectetur fugit nulla doloribus. Quas fugiat, accusantium est vero incidunt id vitae animi dicta distinctio omnis aspernatur, iste, adipisci eligendi officia impedit odit. Nemo aperiam quaerat aliquid. Eos molestiae quisquam ex at assumenda suscipit itaque facere qui dolorem sunt eligendi doloribus sapiente laboriosam inventore modi impedit quam, commodi delectus nihil. Minima culpa necessitatibus nam incidunt enim corrupti in dolores illum aspernatur, velit amet quidem omnis sapiente quam voluptate officia. Nostrum quas nihil at quam possimus. A odit unde explicabo.");
+        marker1.Refill(50);
+        marker1.color = "green";
+        marker1.Print("#paper2", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid beatae");
+        marker1.Refill(20);
+        marker1.color = "blue";
+        marker1.Print("#paper3", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid beatae expedita nisi tempore quisquam aliquam totam error, eos officia modi exercitationem recusandae quam mollitia saepe dolorum. Explicabo nihil officia exercitationem placeat. Facere voluptatibus exercitationem a eveniet! Porro, neque enim quod atque nobis aperiam quasi omnis recusandae aut delectus. Exercitationem quaerat quod et culpa tempore. Suscipit, odit quos quo impedit assumenda obcaecati eligendi non error dolor consequuntur, ullam, voluptatibus hic nisi delectus id porro numquam accusamus veniam laborum dolore ex alias adipisci ducimus expedita! Suscipit, laborum pariatur debitis ab iste ea neque deleniti obcaecati consequatur saepe voluptates placeat ipsam ullam architecto quo repudiandae velit quam rerum illum mollitia dolore culpa beatae quae fugiat! Veritatis obcaecati soluta porro ad ratione harum adipisci quis nisi sed dicta illum ipsa at modi exercitationem mollitia corrupti tempora facere nobis officia vel perferendis quaerat quas, eos illo. At minima, harum ipsum nobis iste reiciendis explicabo saepe. Voluptas aliquam soluta cupiditate? Amet voluptate impedit fuga modi praesentium sint nobis labore deleniti odit quo quaerat nihil similique error dicta, perspiciatis, minima provident. Nulla aspernatur aliquid, praesentium molestiae dolor a ad voluptatum blanditiis cumque necessitatibus, consectetur iure quaerat, fugit magnam voluptate saepe facere fugiat explicabo odit dicta rerum itaque nisi. Laudantium rem totam cum id culpa vitae deleniti temporibus cumque quis? Eum, maiores maxime quis laboriosam aliquid iusto consequuntur asperiores quidem vel veritatis. Hic eaque voluptatibus ad numquam, autem repellat corporis adipisci voluptas ratione illum quia atque amet pariatur aperiam repudiandae ipsam, soluta fuga saepe nisi deserunt voluptatum dicta iusto? Rem, quibusdam in, non sunt magni officia culpa voluptatem quae reprehenderit officiis doloremque! Vitae ut officiis numquam corporis qui, perferendis sequi assumenda sunt, ratione, omnis earum? A eaque vero quas est iure neque sapiente fugit perspiciatis. Quidem debitis id, vel officiis explicabo atque architecto deleniti blanditiis temporibus saepe impedit nisi aut est? Nostrum eaque ipsam, exercitationem deserunt, autem ea sol")
+    </script>
+</body>
+
+</html>

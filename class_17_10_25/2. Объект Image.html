@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Объект Image</title>
+</head>
+
+<body>
+    <div style="text-align: center">
+        <img src="IMG/flower1.jpg" id="picture" /> <br />
+        <img src="IMG/flower2.jpg" /> <img src="IMG/flower3.jpg" /> <img src="IMG/flower4.jpg" /> <br />
+        <img src="IMG/flower5.jpg" /> <img src="IMG/flower6.jpg" /> <img src="IMG/flower7.jpg" /> <br />
+        <img src="IMG/flower8.jpg" /> <img src="IMG/flower9.jpg" /> <img src="IMG/flower10.jpg" />
+    </div>
+    <script>
+        "use strict";
+        let counter = 0;
+        let img = new Array("IMG/flower1.jpg", "IMG/flower2.jpg", "IMG/flower3.jpg", "IMG/flower4.jpg",
+            "IMG/flower5.jpg", "IMG/flower6.jpg", "IMG/flower7.jpg", "IMG/flower8.jpg",
+            "IMG/flower9.jpg", "IMG/flower10.jpg");
+        let alt = new Array("Одуванчик", "Ромашка", "Георгин", "Тюльпан", "Лилия", "Подсолнух", "Мак", "Нарцисс", "Фиалка", "Роза");
+        let index = 0;
+        let id_inter = setInterval("nextImage()", 1000);
+        function nextImage() {
+            if (index < img.length - 1)
+                index++;
+            else
+                index = 0;
+            for (let i = 0; i < img.length; i++) {
+                document.images[i].src = img[index + i < img.length ? index + i : index + i - img.length];
+                document.images[i].alt = alt[index + i < alt.length ? index + i : index + i - alt.length];
+            }
+            if (counter++ > (img.length) * 4)
+                clearInterval(id_inter);
+        }
+    </script>
+</body>
+
+</html>

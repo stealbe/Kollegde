@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 03</title>
+</head>
+
+<body>
+    <div id="gallery">
+
+    </div>
+    <script>
+        /*
+        Задание:
+        Напишите сценарий, который при загрузке страницы выполнит GET запрос на https://jsonplaceholder.typicode.com/photos
+        и выведет на странице все изображения в виде <img>, которые будут получены в ответе.
+        */
+        let gallery = document.querySelector("#gallery");
+        let url = "https://jsonplaceholder.typicode.com/photos";
+        window.addEventListener("load", function () {
+            fetch(url)
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error("Ошибка при загрузке данных: " + response.status);
+                    }
+                })
+                .then(json => {
+                    if (json.ok === false) {
+                        gallery.innerHTML = "Ошибка на стороне сервера: " + json.status;
+                        return;
+                    }
+                    else {
+                        json.forEach(photo => {
+                            if (photo.thumbnailUrl.net == undefined) return; // img not found
+                            let img = document.createElement("img");
+                            img.src = photo.thumbnailUrl;
+                            img.alt = photo.title;
+                            gallery.appendChild(img);
+                        });
+                    }
+                })
+                .catch(error => {
+                    gallery.innerHTML = error.message;
+                });
+        });
+    </script>
+</body>
+
+</html>

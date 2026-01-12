@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 05</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .task-list {
+            width: 500px;
+        }
+
+        #start-message {
+            margin: 10px;
+        }
+
+        .task {
+            display: flex;
+            align-items: center;
+            border: 1px solid gray;
+            padding: 3px 8px;
+            margin: 2px 10px;
+        }
+
+        .task p {
+            margin-left: 4px;
+        }
+
+        .completed {
+            background-color: green;
+            color: white;
+        }
+
+        .completed p {
+            text-decoration: line-through;
+        }
+
+        .input-panel {
+            width: 500px;
+            margin: 8px;
+            padding: 2px;
+        }
+
+        .input-panel button {
+            padding: 4px;
+            width: 25%;
+        }
+
+        .input-panel input {
+            height: 23px;
+            padding-left: 4px;
+            width: 68%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input-panel">
+        <input type="text" id="task-name-input">
+        <button id="add-task-btn">Добавить задачу</button>
+    </div>
+
+    <div class="task-list">
+        <p id="start-message">Нет новых задач</p>
+    </div>
+
+    <script>
+        /*
+        Задание:
+        Сделайте так, чтобы в каждой созданной задаче, после текста задачи создавалась кнопка "Удалить".
+        При нажатии на которую вся задача удалялась из списка задач.
+        */
+        let taskNameInput = document.querySelector("#task-name-input");
+        let addTaskButton = document.querySelector("#add-task-btn");
+        let startMessage = document.querySelector("#start-message");
+        let taskList = document.querySelector(".task-list");
+
+        addTaskButton.addEventListener("click", addTaskHandler);
+
+        function createTask(List, text) {
+            List.querySelectorAll(".task p").forEach(p => {
+                if (p.textContent === text) {
+                    alert("такая задача уже есть");
+                    taskNameInput.value = '';
+                    text = "";
+                    return;
+                }
+            });
+            if (text === "") return null;
+
+            let div = document.createElement("div");
+            div.classList.add("task");
+            div.id = "task-" + (taskList.children.length);
+
+            let input = document.createElement("input");
+            input.addEventListener("click", changeTaskState);
+            input.type = "checkbox";
+
+            let p = document.createElement("p");
+            p.style.padding = "4px 8px";
+            p.innerText = text;
+
+            change_btn = document.createElement("button");
+            change_btn.innerText = "✏️";
+            change_btn.style.border = "none";
+            change_btn.style.background = "none";
+            change_btn.addEventListener("click", changeTask(taskList.children.length));
+
+            remove_btn = document.createElement("button");
+            remove_btn.addEventListener("click", function () {
+                this.parentElement.remove();
+                if (taskList.children.length === 1) startMessage.hidden = false;
+            });
+            remove_btn.innerText = "🗑️";
+            remove_btn.style.border = "none";
+            remove_btn.style.background = "none";
+
+            controls = document.createElement("div");
+            controls.style.marginLeft = "auto";
+            controls.style.display = "flex";
+            controls.style.gap = "8px";
+            controls.append(change_btn);
+            controls.append(remove_btn);
+
+            div.append(input);
+            div.append(p);
+            div.append(controls);
+
+            return div;
+        }
+
+        function changeTask(id) {
+            return function () {
+                document.querySelector(`#task-${id} p`).contentEditable = true;
+                document.querySelector(`#task-${id} p`).focus();
+                document.querySelector(`#task-${id} p`).addEventListener("blur", function () {
+                    document.querySelector(`#task-${id} p`).contentEditable = false;
+                });
+            }
+        }
+
+        function changeTaskState() {
+            if (this.checked) {
+                this.parentElement.classList.add("completed");
+            } else {
+                this.parentElement.classList.remove("completed");
+            }
+        }
+
+        function addTaskHandler() {
+            if (taskNameInput.value) {
+                if (!startMessage.hidden) startMessage.hidden = true;
+
+                let newTask = createTask(taskList, taskNameInput.value);
+                if (!newTask) return;
+                taskList.append(newTask);
+                taskNameInput.value = "";
+            } else {
+                alert("введите имя задачи");
+            }
+        }
+    </script>
+</body>
+
+</html>

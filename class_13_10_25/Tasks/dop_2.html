@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        ul {
+            list-style: decimal;
+        }
+    </style>
+    <ul id="list">
+
+    </ul>
+    <script>
+        library = [
+            { name: "Горе от ума", author: "А.С. Грибоедов", year: 1823 },
+            { name: "Война и мир", author: "Л.Н. Толстой", year: 1869 },
+            { name: "Отцы и дети", author: "И.С. Тургенев", year: 1862 },
+            { name: "Евгений Онегин", author: "А.С. Пушкин", year: 1833 },
+            { name: "Мастер и Маргарита", author: "М.А. Булгаков", year: 1967 }
+        ];
+        ul = document.querySelector("#list");
+        function showList(arr, ul) {
+            for (let books in arr) {
+                let li = document.createElement("li");
+                li.textContent = `${arr[books].name}, ${arr[books].author}, ${arr[books].year}`;
+                li.addEventListener("mousedown", selectItem);
+                ul.appendChild(li);
+            }
+        }
+        function selectItem(e) {
+            e.preventDefault();
+            let liArr = document.querySelectorAll("li");
+            if (e.shiftKey) {
+                let selected = Array.from(liArr).find(li => li.style.backgroundColor === "orange");
+                if (!selected) return;
+                let start = Array.from(liArr).indexOf(selected);
+                let end = Array.from(liArr).indexOf(e.target);
+                for (let i = Math.min(start, end); i <= Math.max(start, end); i++) {
+                    liArr[i].style.backgroundColor = "orange";
+                }
+            } else if (e.ctrlKey) {
+                e.target.style.backgroundColor = "orange";
+            }
+            else {
+                if (e.target.style.backgroundColor === "orange") {
+                    e.target.style.backgroundColor = "";
+                } else {
+                    liArr.forEach(li => li.style.backgroundColor = "");
+                    e.target.style.backgroundColor = "orange";
+                }
+            }
+        }
+
+        showList(library, ul);
+    </script>
+</body>
+
+</html>
