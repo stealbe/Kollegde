@@ -1,0 +1,48 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+struct IPrint // интерфейс
+{
+	virtual void PrintFile() const = 0;
+	virtual void PrintConsole() const = 0;
+};
+
+class Dog : public IPrint // реализация интерфейса (не наследование)
+{
+    string name;
+public:
+    Dog() : name("") {}
+	Dog(const string name) : name(name) {}
+    void PrintFile() const override
+    {
+        ostream& outFile = cout;
+        outFile << "Dog's name is: " << name << endl;
+    }
+    void PrintConsole() const override
+    {
+        cout << "Dog's name is: " << name << endl;
+	}
+};
+
+class Figure : public IPrint // абстрактный базовый класс
+{
+protected:
+
+    double m_value1;
+    double m_value2;
+
+public:
+    Figure() : m_value1(0), m_value2(0) {}
+	void SetDimension(const double value1) { m_value1 = value1; }
+	void SetDimension(const double value1, const double value2) { m_value1 = value1; m_value2 = value2; }
+    virtual void ShowArea() const { cout << "Value is undefined" << endl; }
+    virtual void ShowLength() const { cout << "value 2 = " << m_value2 << endl; }
+    virtual void Init(double m_value1, double m_value2)
+    {
+        this->m_value1 = m_value1;
+        this->m_value2 = m_value2;
+    }
+    virtual void Print() const { cout << "value 1 = " << m_value1 << "\tvalue 2 = " << m_value2 << endl; }
+	virtual void ShowPerimeter() const { cout << "Perimeter is undefined" << endl; }
+};

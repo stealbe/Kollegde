@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\class_19_11_25\\2. \u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{297BBA69-0F2F-445D-9751-1C715317884E}|\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_19_11_25\\2. \u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{297BBA69-0F2F-445D-9751-1C715317884E}|\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F.vcxproj|solutionrelative:\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_19_11_25\\2. \u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp",
+              "RelativeDocumentMoniker": "\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_19_11_25\\2. \u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp",
+              "RelativeToolTip": "\u0423\u043A\u0430\u0437\u0430\u0442\u0435\u043B\u044C \u043D\u0430 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u043D\u044B\u0439 \u0442\u0438\u043F\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-20T09:14:58.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

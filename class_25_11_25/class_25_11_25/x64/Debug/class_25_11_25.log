@@ -1,0 +1,58 @@
+﻿  Main.cpp
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Main.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Main.cpp(51,10): error C2039: 'SetDimension': is not a member of 'Figure'
+      E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(5,7):
+      see declaration of 'Figure'
+  
+  Rectangle.cpp
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Rectangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Rectangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Rectangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Rectangle.cpp')
+  
+  Square.cpp
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Square.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Square.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Square.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Square.cpp')
+  
+  Triangle.cpp
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Triangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(14,10): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Triangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2590: 'SetDimension': only a constructor can have a base/member initializer list
+  (compiling source file 'Triangle.cpp')
+  
+E:\Kolledge\2 course\ooprog\class_25_11_25\class_25_11_25\Figure.h(15,7): error C2533: 'Figure': constructors not allowed a return type
+  (compiling source file 'Triangle.cpp')
+  
+  Running Code Analysis for C/C++...
+  Generating Code...

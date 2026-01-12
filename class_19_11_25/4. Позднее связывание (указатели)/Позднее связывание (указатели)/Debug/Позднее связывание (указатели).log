@@ -1,0 +1,21 @@
+﻿  Main.cpp
+E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26): error C2259: 'Circle': cannot instantiate abstract class
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Circle.h(6,7):
+      see declaration of 'Circle'
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26):
+      due to following members:
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,26):
+      'void Figure::ShowArea(void) const': is abstract
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Figure.h(15,18):
+      see declaration of 'Figure::ShowArea'
+  
+E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22): error C2259: 'Circle': cannot instantiate abstract class
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Circle.h(6,7):
+      see declaration of 'Circle'
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22):
+      due to following members:
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Main.cpp(25,22):
+      'void Figure::ShowArea(void) const': is abstract
+      E:\Kolledge\2 course\ooprog\class_19_11_25\4. Позднее связывание (указатели)\Позднее связывание (указатели)\Figure.h(15,18):
+      see declaration of 'Figure::ShowArea'
+  

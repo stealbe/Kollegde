@@ -1,0 +1,50 @@
+﻿  FileName.cpp
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25): warning C4244:         with
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25): warning C4244:         [
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25): warning C4244:             T=int
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25): warning C4244:         ]
+  (компиляция исходного файла "FileName.cpp")
+      E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(58,25):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(9,15):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "D_array<int>"
+          E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(53,1):
+          во время компиляции функции-члена класс шаблон "D_array<int>::D_array(int)"
+              E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(9,19):
+              см. первую ссылку на D_array<int>::D_array "main"
+  
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29): warning C4244:         with
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29): warning C4244:         [
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29): warning C4244:             T=int
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29): warning C4244:         ]
+  (компиляция исходного файла "FileName.cpp")
+      E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(118,29):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(110,1):
+          во время компиляции функции-члена класс шаблон "D_array<int> &D_array<int>::operator ++(int)"
+              E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(26,6):
+              см. первую ссылку на D_array<int>::operator ++ "main"
+  
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25): warning C4244:         with
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25): warning C4244:         [
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25): warning C4244:             T=char
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25): warning C4244:         ]
+  (компиляция исходного файла "FileName.cpp")
+      E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(49,25):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(13,16):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "D_array<char>"
+          E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(44,1):
+          во время компиляции функции-члена класс шаблон "D_array<char>::D_array(void)"
+              E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\FileName.cpp(13,16):
+              см. первую ссылку на D_array<char>::D_array "main"
+  
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(120,1): warning C4172: возвращаемый адрес локальной переменной или временного : temp
+E:\Kolledge\2 course\ooprog\class_21_10_25\class_21_10_25\DynamicArr.h(105,1): warning C4172: возвращаемый адрес локальной переменной или временного : temp
+FileName.obj : error LNK2019: ссылка на неразрешенный внешний символ "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class D_array<int> &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEAV?$D_array@H@@@Z) в функции main.
+FileName.obj : error LNK2019: ссылка на неразрешенный внешний символ "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class D_array<char> &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEAV?$D_array@D@@@Z) в функции main.
+E:\Kolledge\2 course\ooprog\class_21_10_25\x64\Debug\class_21_10_25.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

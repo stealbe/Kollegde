@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\Library.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\Library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\Book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DD655E05-E8CD-433D-8E23-F7AEEC58AF1C}|class_28_10_25\\class_28_10_25.vcxproj|solutionrelative:class_28_10_25\\Book.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\FileName.cpp",
+              "RelativeDocumentMoniker": "class_28_10_25\\FileName.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\FileName.cpp",
+              "RelativeToolTip": "class_28_10_25\\FileName.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAL0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-28T09:06:07.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.h",
+              "RelativeDocumentMoniker": "class_28_10_25\\Book.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.h",
+              "RelativeToolTip": "class_28_10_25\\Book.h",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-28T09:07:10.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.h",
+              "RelativeDocumentMoniker": "class_28_10_25\\User.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.h",
+              "RelativeToolTip": "class_28_10_25\\User.h",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-28T09:06:51.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Library.h",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.h",
+              "RelativeDocumentMoniker": "class_28_10_25\\Library.h",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.h",
+              "RelativeToolTip": "class_28_10_25\\Library.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-28T11:27:57.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 266,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.cpp",
+              "RelativeDocumentMoniker": "class_28_10_25\\Book.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Book.cpp",
+              "RelativeToolTip": "class_28_10_25\\Book.cpp",
+              "ViewState": "AgIAAAcAAAAAMzMzMzMbwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-28T09:10:29.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.cpp",
+              "RelativeDocumentMoniker": "class_28_10_25\\User.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\User.cpp",
+              "RelativeToolTip": "class_28_10_25\\User.cpp",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-28T09:43:53.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Library.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.cpp",
+              "RelativeDocumentMoniker": "class_28_10_25\\Library.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\ooprog\\class_28_10_25\\class_28_10_25\\Library.cpp",
+              "RelativeToolTip": "class_28_10_25\\Library.cpp",
+              "ViewState": "AgIAALsAAAAAAAAAAAAmwMwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-28T11:33:15.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
