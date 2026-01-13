@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        .dark {
+            background-color: black;
+            color: white;
+        }
+
+        .light {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script type="text/babel">
+
+        let testClass = {
+            name: "dark",
+            ChangeStyle: function () {
+                this.name = this.name === "dark" ? "light" : "dark";
+            }
+        }
+
+        let mStyle = {
+            backgroundColor: "black",
+            color: "white",
+            fontFamily: "Arial",
+            border: "2px solid red",
+            borderRadius: "10px"
+        }
+
+        let div = document.getElementById("main");
+
+        const root = ReactDOM.createRoot(div);
+        root.render(
+            <div className={testClass.name}>
+                <h1>Hello, React!</h1>
+                <p>Hello</p>
+            </div>
+        );
+    </script>
+</body>
+
+</html>

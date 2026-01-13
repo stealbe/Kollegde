@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <script type="text/babel">
+        const cardStyle = {
+            backgroundColor: "darkgray",
+            color: "smokewhite",
+            fontFamily: "Arial",
+            border: "2px solid black",
+            borderRadius: "10px",
+            padding: "20px",
+            maxWidth: "min-content",
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            gap: "16px"
+        };
+        const div = document.createElement("div");
+        div.id = "main";
+        document.body.appendChild(div);
+        const root = ReactDOM.createRoot(div);
+        root.render(
+            <div style={cardStyle}>
+                <img src="https://img.freepik.com/free-photo/3d-rendering-hexagonal-texture-background_23-2150796421.jpg?semt=ais_hybrid&w=740&q=80" alt="Background future" style={{maxWidth:"300px"}}></img>
+                <h2>Paradovskiy O.O.</h2>
+                <a href="mailto:paradovskiialex@gmail.com">mail@gmail.com</a>
+                <a href="tel:+380506873665">+380000000000</a>
+            </div>
+        );
+
+    </script>
+</body>
+
+</html>

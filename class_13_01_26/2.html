@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script type="text/babel">
+        const root = ReactDOM.createRoot(document.getElementById("main"));
+
+        const libStyle = {
+            display: "flex",
+            flexDirection: "column",
+            gap: "16px",
+            marginTop: "20px",
+            justifyContent: "center",
+            alignItems: "center"
+        };
+
+        root.render(
+            <div style={{ textAlign: "center", fontFamily: "Arial", display: "flex", flexDirection: "column", alignItems: "center", gap: "16px" }}>
+                <h1>Ukraine, Odessa</h1>
+                <p>1794 y.</p>
+                <div className="lib" style={libStyle}>
+                    <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTGso2iPwQzXRy4Kd5VHRj6_1BppRS4yf3plbUMXNWZGxUE1cicIvpUpW_uaa_3f7N6Mvabawllh_1O_hVPW2TuNRSc&s=19" alt="Flag of Odessa" style={{ maxWidth: "400px" }}></img>
+                    <span style={{ border: "grey 1px solid", display: "block", width: "200px" }}></span>
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyEXOW4E8asUNidW1jvA0i3ipEG_h6D53I1mrKu-IxJtR9WQR4VEWMAgnjzdUXQhDpi_8qhBPqwPW5DpEi4PG5pj5kLYXt9OpK_SrX1k7XV0BguDp5ivxHNNJZcLMqKARImAq0i=w648-h374-n-k-no" alt="Coat of Arms of Odessa" style={{ maxWidth: "400px" }}></img>
+                    <span style={{ border: "grey 1px solid", display: "block", width: "200px" }}></span>
+                    <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRJELIA3EC6CLljkT_EXuHQDQBUNKtB6ldvBVNJcDt82t0tOJEl_8qh2PIHgk_zCE0t2w0a-RBPo-9VWuC9NL4sDRQ&s=19" alt="City Hall, Odessa" style={{ maxWidth: "400px" }}></img>
+                </div>
+            </div>
+        );
+    </script>
+</body>
+
+</html>

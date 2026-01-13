@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="main" style="display: flex"></div>
+    <script type="text/babel">
+
+        const divStyle = {
+            textAlign: "center",
+            fontFamily: "Arial",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "16px",
+            backgroundColor: "#f0f0f0",
+            color: "#333",
+            padding: "20px",
+            borderRadius: "8px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            border: "1px solid #ccc",
+            maxWidth: "min-content"
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById("main"));
+        root.render(
+            <>
+                <div class="card" style={divStyle}>
+                    <img src="https://m.media-amazon.com/images/I/51UoqRAxwEL._SX342_SY445_QL70_ML2_.jpg" alt="Harry Poter Book Cover" style={{ maxWidth: "200px", borderRadius: "4px" }}></img>
+                    <h1>Harry Poter</h1>
+                    <p>1997 y.</p>
+                    <p>Author: J.K. Rowling</p>
+                    <p>Publisher: Bloomsbury</p>
+                </div>
+                <div class="card" style={divStyle}>
+                    <img src="data:image/jpeg;base64,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" alt="Skillet Band" style={{ maxWidth: "200px", borderRadius: "4px" }}></img>
+                    <h1>Skillet</h1>
+                    <p>1996 y.</p>
+                    <p>Genre: Christian Rock, Alternative Metal</p>
+                    <p>Popular Album: "Comatose"</p>
+                </div>
+            </>
+        );
+    </script>
+</body>
+
+</html>
