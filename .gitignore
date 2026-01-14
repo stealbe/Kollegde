@@ -1,4 +1,6 @@
 .vs/
+*.ipch
+**/.vs/
 .vscode/
 .trunk/
 commit-push-all.ps1
