@@ -5,7 +5,6 @@ commit-push-all.ps1
 graphics/
 english/
 other/
-.vs/
 *.user
 *.suo
 *.userosscache
