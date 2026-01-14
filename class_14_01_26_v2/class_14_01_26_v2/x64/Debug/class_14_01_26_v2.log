@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+E:\Kolledge\2 course\systemPrograming\class_14_01_26_v2\class_14_01_26_v2\FileName.cpp(29,10): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  class_14_01_26_v2.vcxproj -> E:\Kolledge\2 course\systemPrograming\class_14_01_26_v2\x64\Debug\class_14_01_26_v2.exe
