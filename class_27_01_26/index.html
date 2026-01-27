@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="./header.js"></script>
+    <script type="text/babel" src="./card.js"></script>
+    <script type="text/babel" src="./footer.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+</body>
+<script type="text/babel">
+    const catalogLink =
+        "https://corsproxy.io/?" +
+        encodeURIComponent("https://common-api.rozetka.com.ua/v1/api/product/details?country=UA&lang=ua&ids=449075093, 433813736, 445923554, 558200880, 543678065, 437282117, 485280674, 538524934, 377983470, 522954994, 546408876, 500299254, 466675209, 444553202, 325925869, 28184881, 412096140, 397678950, 487192334, 455080419, 557687181, 552541890, 549795924, 510987664, 391573179, 421507539, 458857874, 515490734, 458860744, 458857869, 458857889, 458857894, 445326023, 563532708, 559179171, 544078120, 524727344");
+
+    // recomendations: https://rg.rozetka.com.ua/recent_goods/user=user_id:79246326/?country=UA&lang=ua&r=0.2853042067772703
+
+    async function getProducts(link) {
+        const res = await fetch(link, {
+            method: "GET",
+        });
+        if (!res.ok) throw new Error('Ошибка загрузки каталога');
+        const json = await res.json();
+        return json.data;
+    }
+
+    async function main() {
+        const list = await getProducts(catalogLink);
+
+        const root = ReactDOM.createRoot(document.getElementsByTagName("body")[0]);
+        root.render(
+            <>
+                <Header></Header>
+                <main>
+                    <aside class="sidebar">
+                        <nav class="catalog-nav">
+                            <ul class="catalog-list">
+                                <li class="catalog-item">
+                                    <a href="#">Ноутбуки и компьютеры</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Смартфоны, ТВ и электроника</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Бытовая техника</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Товары для дома</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Инструменты и автотовары</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Детские товары</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Спорт и увлечения</a>
+                                </li>
+                                <li class="catalog-item">
+                                    <a href="#">Одежда и обувь</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </aside>
+                    <section className="catalog" style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1px" }}>
+                        {list.map(item => (
+                            <Card
+                                key={item.id}
+                                id={item.id}
+                                href={item.href}
+                                previewImg={item.images?.main}
+                                name={item.title}
+                                price={item.price}
+                                oldPrice={item.old_price}
+                                label={item.label}
+                                discount={item.discount}
+                            />
+                        ))}
+                    </section>
+                </main>
+                <Footer></Footer>
+            </>
+        );
+    }
+
+    main();
+</script>
+
+</html>
