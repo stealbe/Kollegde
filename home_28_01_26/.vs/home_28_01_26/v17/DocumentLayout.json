@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kolledge\\2 course\\systemPrograming\\home_28_01_26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A566660D-3CFB-4488-9DF7-115CCD71FA40}|home_28_01_26\\home_28_01_26.vcxproj|E:\\Kolledge\\2 course\\systemPrograming\\home_28_01_26\\home_28_01_26\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A566660D-3CFB-4488-9DF7-115CCD71FA40}|home_28_01_26\\home_28_01_26.vcxproj|solutionrelative:home_28_01_26\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "E:\\Kolledge\\2 course\\systemPrograming\\home_28_01_26\\home_28_01_26\\FileName.cpp",
+              "RelativeDocumentMoniker": "home_28_01_26\\FileName.cpp",
+              "ToolTip": "E:\\Kolledge\\2 course\\systemPrograming\\home_28_01_26\\home_28_01_26\\FileName.cpp",
+              "RelativeToolTip": "home_28_01_26\\FileName.cpp",
+              "ViewState": "AgIAADUAAAAANDMzMzPnv1gAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-28T09:05:44.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
