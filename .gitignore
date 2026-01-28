@@ -1,0 +1,42 @@
+.vs/
+*.ipch
+**/.vs/
+.vscode/
+.trunk/
+commit-push-all.ps1
+graphics/
+english/
+other/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+*.vsidx
+*.vspscc
+
+# Rider
+.idea/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+*.log
+*.tmp
+*.bak
+*.swp
