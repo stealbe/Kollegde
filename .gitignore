@@ -15,6 +15,7 @@ bin/
 obj/
 *.vsidx
 *.vspscc
+database/
 
 # Rider
 .idea/
