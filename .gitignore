@@ -15,6 +15,7 @@ bin/
 obj/
 *.vsidx
 *.vspscc
+node_modules/
 
 # Rider
 .idea/
