@@ -1,0 +1,31 @@
+#text
+{  
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 50px;
+
+ }
+
+ button
+ {
+    margin-left: 50px;
+ }
+
+ .Light
+ {
+background-color: rgb(250, 246, 246);
+color:rgb(6, 5, 5);
+ }
+
+ .Dark
+ {
+background-color: rgb(72, 69, 69);
+color:white;
+
+ }
+ .button
+ {
+    background-color: aquamarine;
+ }
