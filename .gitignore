@@ -16,6 +16,8 @@ obj/
 *.vsidx
 *.vspscc
 database/
+**/.vs/**
+**/debug/
 
 # Rider
 .idea/
