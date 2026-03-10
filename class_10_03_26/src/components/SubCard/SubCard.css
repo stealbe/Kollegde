@@ -1,0 +1,83 @@
+.SubCard {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    background: var(--card);
+    color: var(--line);
+    box-shadow: 0 0 20px 1px var(--second-text);
+    gap: 34px;
+
+    &:hover {
+        scale: 1.15;
+    }
+}
+
+.SubCard .name {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubCard h2 {
+    text-align: center;
+    color: var(--line);
+    font-size: 2.75em;
+    margin: 40px 0;
+    font-weight: lighter;
+}
+
+.SubCard .price {
+    position: absolute;
+    top: 80%;
+    left: auto;
+    background: var(--black-alfa);
+    font-weight: light;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 10px;
+    width: 70%;
+}
+
+.SubCard ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+
+.SubCard ul li {
+    width: 100%;
+    color: var(--second-text);
+    font-size: 1.1em;
+    text-wrap: nowrap;
+    & img {
+        width: 16px;
+        height: auto;
+        margin-right: 10px;
+    }
+}
+
+.SubCard ul li.unavailable {
+    width: 24px;
+}
+
+.SubCard .Subscribe {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 30px 0;
+    font-size: 100%;
+    font-weight: bold;
+    text-wrap: normal;
+    color: var(--line);
+}

@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav';
 import Header from './components/Header/Header';
 import Card from './components/Card/Card';
 import Footer from './components/Footer/Footer';
+import SubCard from './components/SubCard/SubCard';
 
 const navItems = [
   { label: "Домой", href: "#" },
@@ -17,11 +18,40 @@ const sidebarLinks = [
   { label: "О проекте", href: "#about" }
 ];
 
+const subscriptionPlans = [
+  {
+    title: "Basic",
+    price: "$2.99",
+    features: ["Sample Text Here"],
+    unavailable: ["Other Text Title", "Text Space Goes Here", "Description Space"],
+    background: "#017e59"
+  },
+  {
+    title: "Standard",
+    price: "$5.99",
+    features: ["Sample Text Here", "Other Text Title", "Text Space Goes Here"],
+    unavailable: ["Description Space"],
+    background: "#0068da"
+  },
+  {
+    title: "Premium",
+    price: "$0.99",
+    features: ["Sample Text Here", "Other Text Title", "Text Space Goes Here", "Description Space"],
+    unavailable: [],
+    background: "#01356e"
+  }
+];
+
 function App() {
   return (
     <div className="App">
       <Header version="v1.0" subtitle="Макет страницы на React (JSX)" root={document.querySelector(':root')} />
       <Nav items={navItems} />
+      <section className="subscriptions">
+        {subscriptionPlans.map((plan, index) => (
+          <SubCard key={index} title={plan.title} price={plan.price} features={plan.features} unavailable={plan.unavailable} background={plan.background} />
+        ))}
+      </section>
       <div className="layout">
         <Card className="main" title="Главная область">
           <>

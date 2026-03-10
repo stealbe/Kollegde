@@ -7,6 +7,7 @@
   --second-text: #596072;
   --line: #d5ddf6;
   --card: #fff;
+  --black-alfa: rgba(0, 0, 0, 0.75);
 }
 
 body {
@@ -126,5 +127,20 @@ a:hover {
 
   100% {
     transform: scale(1);
+  }
+}
+
+.subscriptions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 60px 0;
+
+  &:has(.SubCard:hover) .SubCard:not(:hover) {
+    scale: 0.95;
   }
 }
