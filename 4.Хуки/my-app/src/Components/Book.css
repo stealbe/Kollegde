@@ -1,0 +1,11 @@
+.main
+{
+    background-color: rgb(252, 252, 249);
+}
+#radio
+{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+
+}
