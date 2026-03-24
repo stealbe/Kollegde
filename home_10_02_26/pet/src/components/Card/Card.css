@@ -1,0 +1,52 @@
+#conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Card {
+    width: max-content;
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Card h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.Card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.Card .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #999;
+}
+
+.Card .footer p:nth-child(1),
+.Card .footer p:nth-child(3) {
+    text-align: start;
+    width: 45%;
+}
+
+.Card .footer p:nth-child(2),
+.Card .footer p:nth-child(4) {
+    text-align: end;
+    width: 45%;
+}
