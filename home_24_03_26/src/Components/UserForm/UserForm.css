@@ -1,0 +1,30 @@
+label {
+    display: block;
+    color: black;
+
+    & span {
+        display: none;
+    }
+}
+
+label.invalid span {
+    display: inline;
+}
+
+label.valid input,
+label.valid select,
+label.valid textarea {
+    border: 1px solid lightgreen;
+}
+
+label.invalid input,
+label.invalid select,
+label.invalid textarea {
+    border: 1px solid red;
+}
+
+label.empty input,
+label.empty select,
+label.empty textarea {
+    border: 1px solid orange;
+}

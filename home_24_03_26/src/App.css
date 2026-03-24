@@ -1,0 +1,9 @@
+form
+{
+    padding-left: 20px;
+}
+
+#Mainform{
+    display: flex;
+    flex-direction: column;
+}
