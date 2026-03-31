@@ -1,0 +1,122 @@
+.header {
+    background: #221f1f;
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .container {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.burger {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.logoWrap {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.logoImage {
+    height: 32px;
+}
+
+.catalogBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+    padding: 0 14px;
+    background: none;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+
+    & svg{
+        fill: #fff;
+        width: 16px;
+    }
+
+    &:hover {
+        color: var(--global-green);
+        text-decoration: none;
+        border-color: var(--global-green);
+    }
+    &:hover svg g{
+        fill: var(--global-green);
+    }
+}
+
+.searchWrap {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 720px;
+    height: 40px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.searchInput {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #221f1f;
+}
+
+.searchBtn {
+    height: 100%;
+    padding: 0 20px;
+    background: #00a046;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: 12px;
+}
+
+.iconWrap {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
