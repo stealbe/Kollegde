@@ -1,0 +1,34 @@
+form
+{
+    padding-left: 20px;
+}
+
+.valid
+{
+    /* display: none; */
+    /* border-color: rgb(6, 42, 222); */
+    background-color: rgb(162, 248, 219);
+
+}
+.invalid
+{
+    /* display: inline; */
+    color:red;
+    /* background-color:rgb(235, 172, 172); */
+}
+
+#Mainform{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    background-color: aquamarine;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 10px;
+}
+.none
+{
+    display: none;
+}

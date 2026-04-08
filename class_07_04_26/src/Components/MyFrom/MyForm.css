@@ -1,0 +1,16 @@
+.nonvalid
+{
+    background-color: rgb(246, 112, 112);
+}
+.valid
+{
+    background-color: rgb(112, 106, 231);
+}
+
+.empty,
+.nonvalid,
+.valid
+{
+    color:black;
+    border: 1px solid black;
+}
